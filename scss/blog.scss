@@ -1,0 +1,25 @@
+.swiper-button-prev {
+  width: 34px !important;
+  height: 34px !important;
+
+  svg {
+    width: 7px !important;
+  }
+}
+
+.swiper-button-next {
+  width: 34px !important;
+  height: 34px !important;
+
+  svg {
+    width: 7px !important;
+  }
+}
+
+.blog {
+  .container {
+    @media (max-width: 440px) {
+      padding: 0 0 0 10px;
+    }
+  }
+}

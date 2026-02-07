@@ -1,5 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url('https://fonts.cdnfonts.com/css/proxima-nova-condensed');
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-Medium.woff2") format("woff2");
+  font-weight: 500;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-Regular.woff2") format("woff2");
+  font-weight: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-Light.woff2") format("woff2");
+  font-weight: 300;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-Bold.woff2") format("woff2");
+  font-weight: bold;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+
+  font-display: swap;
+}
+
+:root {
+  ----black: #121212;
+  ----sub-black: #626262;
+  --gray-black: #0a0b0e;
+}
 
 html {
   scroll-behavior: smooth;
@@ -12,11 +55,15 @@ html {
   padding: 0;
   box-sizing: border-box;
   transition: 0.2s ease-in-out;
+
+  font-family: "Manrope";
 }
 
 body {
   margin: 0;
   padding: 0;
+
+  background: #f2f2f2;
 }
 
 img {
@@ -40,7 +87,7 @@ a {
 }
 
 .wrapper {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .list-reset {
@@ -71,4 +118,128 @@ a {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
+  width: 100%;
+
+  @media (max-width: 440px) {
+    padding: 0 10px;
+  }
+}
+
+.static-btn {
+  cursor: pointer;
+
+  .text {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: clamp(0.875rem, 0.82rem + 0.2vw, 1rem);
+    color: #000;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 62px;
+
+    padding: 20px 44px;
+    background-color: #fff;
+    border-radius: 100px;
+  }
+
+  .circle {
+    width: 62px;
+    height: 62px;
+    background-color: #fff;
+    border-radius: 100px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 4px;
+  }
+}
+
+.static-btn:hover {
+  .text {
+    background-color: var(----black);
+    color: #fff;
+  }
+
+  .circle {
+    background-color: var(----black);
+    svg {
+      path {
+        stroke: #fff;
+      }
+    }
+  }
+}
+
+.static-btn.black {
+  .text {
+    background-color: var(----black);
+    color: #fff;
+  }
+
+  .circle {
+    background-color: var(----black);
+
+    svg {
+      path {
+        stroke: #fff;
+      }
+    }
+  }
+}
+
+.static-btn.black:hover {
+  .text {
+    background-color: #fff;
+    color: var(----black);
+  }
+
+  .circle {
+    background-color: #fff;
+    svg {
+      path {
+        stroke: var(----black);
+      }
+    }
+  }
+}
+
+.title {
+  font-weight: 600;
+  font-size: clamp(2.125rem, 1.898rem + 1.14vw, 2.75rem);
+  text-transform: uppercase;
+  color: var(----black);
+
+  margin-top: 70px;
+  margin-bottom: 10px;
+
+  @media (max-width: 1080px) {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: clamp(0.875rem, 0.784rem + 0.45vw, 1.125rem);
+  color: var(----sub-black);
+  margin-bottom: 50px;
+
+  @media (max-width: 1080px) {
+    margin-bottom: 30px;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+
+  .swiper-slide-blog {
+    img {
+      width: 100%;
+    }
+  }
 }

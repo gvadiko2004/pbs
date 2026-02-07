@@ -1,0 +1,41 @@
+.service-carousel {
+  background-color: #0a0b0e;
+
+  padding: 20px 0;
+
+  @media (max-width: 440px) {
+    padding: 12px 0;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    .line {
+      display: block;
+      height: 30px;
+      width: 1px;
+      background-color: #fff;
+    }
+  }
+
+  // .service-carousel__item
+
+  &__item {
+  }
+
+  // .service-carousel__item-text
+
+  &__item-text {
+    font-weight: 500;
+    font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
+    text-transform: uppercase;
+    color: #fff;
+
+    white-space: nowrap;
+  }
+}
+.line {
+}

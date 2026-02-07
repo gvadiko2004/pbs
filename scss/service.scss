@@ -1,0 +1,146 @@
+.service-blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+
+  @media (max-width: 1080px) {
+    gap: 12px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 640px) {
+    gap: 10px;
+    grid-template-columns: 1fr;
+  }
+
+  // .service-blocks__item
+
+  &__item {
+    background-color: var(--gray-black);
+    padding: 28px;
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+
+    transition: 0.2s ease-in-out;
+  }
+
+  // .service-blocks__item-icon
+
+  &__item-icon {
+    display: block;
+    margin-bottom: 100px;
+  }
+
+  // .service-blocks__item-title
+
+  &__item-title {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+
+    padding: 150px 0 0 0;
+  }
+
+  // .service-blocks__item-subtitle
+
+  &__item-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    max-width: 70%;
+    margin-top: 16px;
+
+    @media (max-width: 768px) {
+      max-width: 76%;
+    }
+  }
+
+  // .service-blocks__item-form
+
+  &__item-form {
+  }
+}
+
+.service-block__item-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 62px;
+  height: 62px;
+  border-radius: 100px;
+  background-color: #fff;
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+}
+
+.service-blocks__item.reseve {
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+
+  min-height: 290px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+
+  .static-btn {
+    position: absolute;
+    bottom: 24px;
+  }
+}
+
+.service-blocks__item-forms {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 145%;
+  color: var(----black);
+}
+
+.service-blocks__item-titles {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 145%;
+  text-transform: uppercase;
+  color: var(----black);
+  max-width: 300px;
+}
+
+.service-blocks__item-icon {
+  display: inline-flex;
+
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.service-blocks__item:hover {
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+
+  * {
+    color: var(----black);
+  }
+
+  .service-block__item-btn {
+    background-color: var(----black);
+
+    svg {
+      path {
+        stroke: #fff;
+      }
+    }
+  }
+
+  .service-blocks__item-icon {
+    background-color: var(----black);
+    padding: 10px;
+    border-radius: 10px;
+  }
+}

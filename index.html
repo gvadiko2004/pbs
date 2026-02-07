@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,34 +6,1848 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/swiper.css" />
-    <link rel="stylesheet" href="./css/swiper-min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
   </head>
+
   <body>
     <div class="wrapper">
       <header class="header">
         <div class="container">
-          <div class="header__inner"></div>
+          <div class="header__inner">
+            <a href="#!" class="header__logo">
+              <img src="./images/logo.png" alt="PBS" />
+            </a>
+
+            <ul class="header__list list-reset">
+              <li class="header__list-item">
+                <a href="#!" class="header__list-link">
+                  <span>Головна</span>
+                </a>
+              </li>
+
+              <li class="header__list-item">
+                <a href="#!" class="header__list-link drop">
+                  Послуги
+                  <span
+                    ><svg
+                      width="6"
+                      height="3"
+                      viewBox="0 0 6 3"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.25 0.250015L2.75 2.25002L5.25 0.250015"
+                        stroke="white"
+                        stroke-width="0.5"
+                        stroke-linecap="round"
+                      /></svg
+                  ></span>
+                </a>
+              </li>
+
+              <li class="header__list-item">
+                <a href="#!" class="header__list-link drop">
+                  AI Послуги
+                  <span
+                    ><svg
+                      width="6"
+                      height="3"
+                      viewBox="0 0 6 3"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.25 0.250015L2.75 2.25002L5.25 0.250015"
+                        stroke="white"
+                        stroke-width="0.5"
+                        stroke-linecap="round"
+                      /></svg
+                  ></span>
+                </a>
+              </li>
+
+              <li class="header__list-item">
+                <a href="#!" class="header__list-link">
+                  <span>Про компанію</span>
+                </a>
+              </li>
+
+              <li class="header__list-item">
+                <a href="#!" class="header__list-link">
+                  <span>Кейси</span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="end">
+              <div class="header-action">
+                <div class="header-action__info">
+                  <a
+                    href="tel:+38 (093) XXX - XX - XX"
+                    class="header-action__info-link"
+                    >+38 (093) XXX - XX - XX</a
+                  >
+                  <a href="mailto:seo@info.com" class="header-action__info-link"
+                    >seo@info.com</a
+                  >
+                </div>
+
+                <span class="end__line">
+                  <svg
+                    width="1"
+                    height="40"
+                    viewBox="0 0 1 40"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.25 0V39.5"
+                      stroke="url(#paint0_linear_12_2885)"
+                      stroke-width="0.5"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_12_2885"
+                        x1="0.75"
+                        y1="0"
+                        x2="0.75"
+                        y2="39.5"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="white" stop-opacity="0.6" />
+                        <stop
+                          offset="1"
+                          stop-color="#999999"
+                          stop-opacity="0.1"
+                        />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </span>
+
+                <div class="header-action__contact">
+                  <a href="#!" class="header-action__contact-icon">
+                    <svg
+                      width="16"
+                      height="13"
+                      viewBox="0 0 16 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        x="0.5"
+                        y="0.5"
+                        width="15"
+                        height="12"
+                        rx="2"
+                        stroke="black"
+                      />
+                      <path
+                        d="M3.5 4.5L6.8 6.975C7.51111 7.50833 8.48889 7.50833 9.2 6.975L12.5 4.5"
+                        stroke="black"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+
+                  <a href="#!" class="header-action__contact-icon">
+                    <svg
+                      width="13"
+                      height="13"
+                      viewBox="0 0 13 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.2075 11.9789C9.90467 13.2818 6.56806 12.0576 3.75503 9.24453C0.941995 6.4315 -0.282228 3.09489 1.02065 1.79201L1.87849 0.934168C2.47071 0.34195 3.44654 0.357604 4.05807 0.969133L5.3868 2.29786C5.99832 2.90939 6.01398 3.88522 5.42176 4.47744L5.23751 4.66169C4.91776 4.98144 4.88648 5.49726 5.18358 5.85729C5.47016 6.20457 5.77911 6.55048 6.1141 6.88546C6.44908 7.22045 6.79499 7.5294 7.14227 7.81598C7.5023 8.11308 8.01812 8.0818 8.33786 7.76205L8.52212 7.5778C9.11434 6.98558 10.0902 7.00123 10.7017 7.61276L12.0304 8.94149C12.642 9.55302 12.6576 10.5288 12.0654 11.1211L11.2075 11.9789Z"
+                        stroke="black"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </header>
 
       <main class="main">
         <section class="hero">
           <div class="container">
-            <div class="hero__inner"></div>
+            <div class="hero__inner">
+              <div class="hero-content">
+                <h1 class="hero-content__title">
+                  SEO-просування, <br />
+                  AI-автоматизація
+                </h1>
+                <p class="hero-content__subtitle">
+                  Комплексне SEO, стратегія, контент, лінкбілдинг та AI-рішення.
+                  Працюємо на результат: трафік, заявки, продажі.
+                </p>
+                <a href="#!" class="hero-content__btn static-btn">
+                  <span class="text">Дивитись послуги</span>
+                  <span class="circle">
+                    <svg
+                      width="19"
+                      height="16"
+                      viewBox="0 0 19 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                        stroke="black"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M12.4255 9.66347L2.15578 3.73425"
+                        stroke="black"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+
+              <div class="hero-plus">
+                <div class="hero-plus__item">
+                  <div class="hero-plus__item-icon">
+                    <svg
+                      width="19"
+                      height="19"
+                      viewBox="0 0 19 19"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2.84315 16.095C3.96197 17.2138 5.38743 17.9758 6.93928 18.2845C8.49113 18.5931 10.0997 18.4347 11.5615 17.8292C13.0233 17.2237 14.2727 16.1983 15.1518 14.8827C15.8449 13.8454 16.2832 12.6644 16.4376 11.4356C16.5064 10.8876 16.0523 10.4382 15.5 10.4382H10C9.17157 10.4382 8.5 9.7666 8.5 8.93817V3.43817C8.5 2.88589 8.05055 2.43173 7.50258 2.50059C6.27376 2.655 5.09275 3.0933 4.05544 3.78641C2.73985 4.66547 1.71446 5.91489 1.10896 7.3767C0.503463 8.83851 0.345036 10.447 0.653718 11.9989C0.729509 12.3799 0.832624 12.7533 0.961637 13.1164"
+                        stroke="white"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M11.5 1.43817C11.5 0.885887 11.95 0.430849 12.4966 0.509479C13.0731 0.592401 13.6383 0.747134 14.1788 0.971015C15.0281 1.3228 15.7997 1.83841 16.4497 2.48842C17.0998 3.13843 17.6154 3.91011 17.9672 4.75939C18.191 5.29988 18.3458 5.86507 18.4287 6.44156C18.5073 6.98822 18.0523 7.43817 17.5 7.43817L12.5 7.43817C11.9477 7.43817 11.5 6.99046 11.5 6.43817V1.43817Z"
+                        stroke="white"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="text">
+                    <h4 class="hero-plus__item-title">Стратегія</h4>
+                    <p class="hero-plus__item-subtitle">план + KPI</p>
+                  </div>
+                </div>
+
+                <div class="line">
+                  <svg
+                    width="1"
+                    height="30"
+                    viewBox="0 0 1 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.25 0V29.5"
+                      stroke="url(#paint0_linear_12_2861)"
+                      stroke-width="0.5"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_12_2861"
+                        x1="0.75"
+                        y1="0"
+                        x2="0.75"
+                        y2="29.5"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="white" stop-opacity="0.6" />
+                        <stop
+                          offset="1"
+                          stop-color="#999999"
+                          stop-opacity="0.1"
+                        />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+
+                <div class="hero-plus__item">
+                  <div class="hero-plus__item-icon">
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12.5 0.5C13.4065 0.5 14.4605 0.5 15.5001 0.5C18.2615 0.5 20.5 2.73858 20.5 5.5V15.5C20.5 18.2614 18.2614 20.5 15.5 20.5H5.5C2.73858 20.5 0.5 18.2614 0.5 15.5V5.5C0.5 2.73858 2.73858 0.5 5.5 0.5H8.5"
+                        stroke="white"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M6.5 15.5L6.5 12.5"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M10.5 15.5L10.5 5.5"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M14.5 15.5L14.5 8.5"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="text">
+                    <h4 class="hero-plus__item-title">Стратегія</h4>
+                    <p class="hero-plus__item-subtitle">план + KPI</p>
+                  </div>
+                </div>
+
+                <div class="line">
+                  <svg
+                    width="1"
+                    height="30"
+                    viewBox="0 0 1 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.25 0V29.5"
+                      stroke="url(#paint0_linear_12_2861)"
+                      stroke-width="0.5"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_12_2861"
+                        x1="0.75"
+                        y1="0"
+                        x2="0.75"
+                        y2="29.5"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="white" stop-opacity="0.6" />
+                        <stop
+                          offset="1"
+                          stop-color="#999999"
+                          stop-opacity="0.1"
+                        />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+
+                <div class="hero-plus__item">
+                  <div class="hero-plus__item-icon">
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.7046 10.9442L16.338 10.6041L16.7046 10.9442ZM9.63357 3.87309L9.97358 4.23969L9.63357 3.87309ZM20.062 2.40758L20.5578 2.47242L20.062 2.40758ZM18.1701 0.515716L18.235 1.01149L18.1701 0.515716ZM4.89547 10.7859L5.34442 11.006L4.89547 10.7859ZM9.79186 15.6823L9.57177 15.2333V15.2333L9.79186 15.6823ZM8.41469 10.4323C8.21943 10.237 7.90284 10.237 7.70758 10.4323C7.51232 10.6276 7.51232 10.9441 7.70758 11.1394L8.06114 10.7859L8.41469 10.4323ZM11.4014 14.8332C11.5966 15.0285 11.9132 15.0285 12.1085 14.8332C12.3037 14.6379 12.3037 14.3214 12.1085 14.1261L11.7549 14.4796L11.4014 14.8332ZM4.68386 16.601C4.87912 16.4057 4.87912 16.0891 4.68386 15.8939C4.48859 15.6986 4.17201 15.6986 3.97675 15.8939L4.3303 16.2474L4.68386 16.601ZM1.14832 18.7223C0.953061 18.9175 0.953061 19.2341 1.14832 19.4294C1.34359 19.6247 1.66017 19.6247 1.85543 19.4294L1.50188 19.0758L1.14832 18.7223ZM2.56254 14.4796C2.7578 14.2844 2.7578 13.9678 2.56254 13.7725C2.36727 13.5773 2.05069 13.5773 1.85543 13.7725L2.20898 14.1261L2.56254 14.4796ZM0.441216 15.1868C0.245954 15.382 0.245954 15.6986 0.441216 15.8939C0.636478 16.0891 0.953061 16.0891 1.14832 15.8939L0.794769 15.5403L0.441216 15.1868ZM6.80518 18.7223C7.00044 18.527 7.00044 18.2104 6.80518 18.0152C6.60991 17.8199 6.29333 17.8199 6.09807 18.0152L6.45162 18.3687L6.80518 18.7223ZM4.68386 19.4294C4.48859 19.6247 4.48859 19.9412 4.68386 20.1365C4.87912 20.3318 5.1957 20.3318 5.39096 20.1365L5.03741 19.7829L4.68386 19.4294ZM9.49218 19.1466C9.45313 18.8732 9.19987 18.6832 8.9265 18.7223C8.65313 18.7613 8.46318 19.0146 8.50223 19.288L8.99721 19.2173L9.49218 19.1466ZM14.1591 15.7524L14.6541 15.6817V15.6817L14.1591 15.7524ZM1.28972 12.0755C1.56309 12.1146 1.81636 11.9246 1.85541 11.6512C1.89446 11.3779 1.70451 11.1246 1.43114 11.0856L1.36043 11.5805L1.28972 12.0755ZM4.82526 6.41865L4.75455 6.91363L4.75455 6.91363L4.82526 6.41865ZM15.2783 0.555484C15.0106 0.623263 14.8485 0.895218 14.9163 1.16291C14.9841 1.43061 15.256 1.59267 15.5237 1.52489L15.401 1.04019L15.2783 0.555484ZM12.4923 2.58735C12.742 2.46941 12.8488 2.17138 12.7308 1.92169C12.6129 1.67201 12.3149 1.56521 12.0652 1.68316L12.2787 2.13525L12.4923 2.58735ZM7.62102 15.2956L7.97457 14.942L5.63571 12.6032L5.28216 12.9567L4.92861 13.3103L7.26746 15.6491L7.62102 15.2956ZM16.7046 10.9442L16.338 10.6041C14.4106 12.6824 11.2991 14.3865 9.57177 15.2333L9.79186 15.6823L10.012 16.1312C11.7496 15.2793 15.0084 13.5083 17.0712 11.2842L16.7046 10.9442ZM4.89547 10.7859L5.34442 11.006C6.19122 9.27867 7.89536 6.16716 9.97358 4.23969L9.63357 3.87309L9.29356 3.50649C7.06942 5.5693 5.29839 8.82813 4.44652 10.5658L4.89547 10.7859ZM20.062 2.40758L19.5662 2.34273C19.2616 4.67202 18.4476 8.32957 16.338 10.6041L16.7046 10.9442L17.0712 11.2842C19.4096 8.76297 20.25 4.82548 20.5578 2.47242L20.062 2.40758ZM20.062 2.40758L20.5578 2.47242C20.7476 1.02136 19.5564 -0.169841 18.1053 0.0199386L18.1701 0.515716L18.235 1.01149C19.0348 0.906893 19.6708 1.54295 19.5662 2.34273L20.062 2.40758ZM5.28216 12.9567L5.63571 12.6032C5.20177 12.1692 5.08612 11.5328 5.34442 11.006L4.89547 10.7859L4.44652 10.5658C3.9883 11.5004 4.21158 12.5932 4.92861 13.3103L5.28216 12.9567ZM7.62102 15.2956L7.26746 15.6491C7.98449 16.3661 9.0773 16.5894 10.012 16.1312L9.79186 15.6823L9.57177 15.2333C9.04489 15.4916 8.40852 15.376 7.97457 14.942L7.62102 15.2956ZM8.06114 10.7859L7.70758 11.1394L11.4014 14.8332L11.7549 14.4796L12.1085 14.1261L8.41469 10.4323L8.06114 10.7859ZM4.3303 16.2474L3.97675 15.8939L1.14832 18.7223L1.50188 19.0758L1.85543 19.4294L4.68386 16.601L4.3303 16.2474ZM2.20898 14.1261L1.85543 13.7725L0.441216 15.1868L0.794769 15.5403L1.14832 15.8939L2.56254 14.4796L2.20898 14.1261ZM6.45162 18.3687L6.09807 18.0152L4.68386 19.4294L5.03741 19.7829L5.39096 20.1365L6.80518 18.7223L6.45162 18.3687ZM12.1085 5.64081L11.7549 5.28726C10.7786 6.26357 10.7786 7.84648 11.7549 8.82279L12.1085 8.46924L12.462 8.11569C11.8762 7.5299 11.8762 6.58015 12.462 5.99437L12.1085 5.64081ZM12.1085 8.46924L11.7549 8.82279C12.7312 9.7991 14.3141 9.7991 15.2905 8.82279L14.9369 8.46924L14.5834 8.11569C13.9976 8.70147 13.0478 8.70147 12.462 8.11569L12.1085 8.46924ZM14.9369 8.46924L15.2905 8.82279C16.2668 7.84648 16.2668 6.26357 15.2905 5.28726L14.9369 5.64081L14.5834 5.99437C15.1691 6.58015 15.1691 7.5299 14.5834 8.11569L14.9369 8.46924ZM14.9369 5.64081L15.2905 5.28726C14.3141 4.31095 12.7312 4.31095 11.7549 5.28726L12.1085 5.64081L12.462 5.99437C13.0478 5.40858 13.9976 5.40858 14.5834 5.99437L14.9369 5.64081ZM13.8762 16.601L13.5227 16.2474L10.3407 19.4294L10.6943 19.7829L11.0478 20.1365L14.2298 16.9545L13.8762 16.601ZM13.8762 13.7725L13.3813 13.8433L13.6641 15.8231L14.1591 15.7524L14.6541 15.6817L14.3712 13.7018L13.8762 13.7725ZM10.6943 19.7829L10.3407 19.4294C10.0494 19.7207 9.55045 19.5544 9.49218 19.1466L8.99721 19.2173L8.50223 19.288C8.67704 20.5116 10.1738 21.0105 11.0478 20.1365L10.6943 19.7829ZM13.8762 16.601L14.2298 16.9545C14.5636 16.6207 14.7208 16.1491 14.6541 15.6817L14.1591 15.7524L13.6641 15.8231C13.6864 15.9789 13.634 16.1361 13.5227 16.2474L13.8762 16.601ZM3.97673 6.70149L3.62317 6.34794L0.441194 9.52992L0.794748 9.88347L1.1483 10.237L4.33028 7.05505L3.97673 6.70149ZM6.80516 6.70149L6.87587 6.20652L4.89597 5.92368L4.82526 6.41865L4.75455 6.91363L6.73444 7.19647L6.80516 6.70149ZM0.794748 9.88347L0.441194 9.52992C-0.432838 10.404 0.0660782 11.9007 1.28972 12.0755L1.36043 11.5805L1.43114 11.0856C1.02326 11.0273 0.856958 10.5284 1.1483 10.237L0.794748 9.88347ZM3.97673 6.70149L4.33028 7.05505C4.44157 6.94376 4.59875 6.89137 4.75455 6.91363L4.82526 6.41865L4.89597 5.92368C4.42858 5.85691 3.95703 6.01409 3.62317 6.34794L3.97673 6.70149ZM15.401 1.04019L15.5237 1.52489C16.5168 1.27346 17.4569 1.11326 18.235 1.01149L18.1701 0.515716L18.1053 0.0199385C17.2975 0.125596 16.3175 0.292358 15.2783 0.555484L15.401 1.04019ZM9.63357 3.87309L9.97358 4.23969C10.6963 3.56942 11.5632 3.02622 12.4923 2.58735L12.2787 2.13525L12.0652 1.68316C11.0685 2.15397 10.1091 2.75006 9.29356 3.50649L9.63357 3.87309Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="text">
+                    <h4 class="hero-plus__item-title">Зростання</h4>
+                    <p class="hero-plus__item-subtitle">трафік + заявки</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
+
+        <div class="service-carousel">
+          <div class="container">
+            <div class="service-carousel__item">
+              <p class="service-carousel__item-text">SEO аудит</p>
+            </div>
+
+            <span class="line"></span>
+
+            <div class="service-carousel__item">
+              <p class="service-carousel__item-text">SEO стратегія</p>
+            </div>
+
+            <span class="line"></span>
+
+            <div class="service-carousel__item">
+              <p class="service-carousel__item-text">Технічне SEO</p>
+            </div>
+
+            <span class="line"></span>
+
+            <div class="service-carousel__item">
+              <p class="service-carousel__item-text">On-page SEO</p>
+            </div>
+
+            <span class="line"></span>
+
+            <div class="service-carousel__item">
+              <p class="service-carousel__item-text">SEO контент</p>
+            </div>
+
+            <span class="line"></span>
+
+            <div class="service-carousel__item">
+              <p class="service-carousel__item-text">Лінкбілдинг</p>
+            </div>
+
+            <span class="line"></span>
+
+            <div class="service-carousel__item">
+              <p class="service-carousel__item-text">SEO аналітика</p>
+            </div>
+          </div>
+        </div>
+ 
+        <section class="service">
+          <div class="container">
+            <div class="service__inner">
+              <h2 class="title">Сервіси</h2>
+              <p class="subtitle">5 ключових послуг у вигляді карток.</p>
+
+              <div class="service-blocks">
+                <div class="service-blocks__item">
+                  <div class="service-blocks__item-icon">
+                    <img src="./images/service-1.svg" alt="" />
+                  </div>
+
+                  <h4 class="service-blocks__item-title">SEO аудит</h4>
+                  <p class="service-blocks__item-subtitle">
+                    Індексація, швидкість, структура, технічні помилки.
+                  </p>
+
+                  <a href="#!" class="service-block__item-btn">
+                    <svg
+                      width="19"
+                      height="16"
+                      viewBox="0 0 19 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0784C15.7276 11.9354 16.0442 11.3871 15.9012 10.8536L14.5817 5.92902"
+                        stroke="black"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M12.426 9.6635L2.15632 3.73428"
+                        stroke="black"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="service-blocks__item">
+                  <div class="service-blocks__item-icon">
+                    <img src="./images/service-2.svg" alt="" />
+                  </div>
+
+                  <h4 class="service-blocks__item-title">
+                    Внутрішня оптимізація
+                  </h4>
+                  <p class="service-blocks__item-subtitle">
+                    Теги, контент, перелінковка, on-page правки.
+                  </p>
+
+                  <a href="#!" class="service-block__item-btn">
+                    <svg
+                      width="19"
+                      height="16"
+                      viewBox="0 0 19 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0784C15.7276 11.9354 16.0442 11.3871 15.9012 10.8536L14.5817 5.92902"
+                        stroke="black"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M12.426 9.6635L2.15632 3.73428"
+                        stroke="black"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="service-blocks__item">
+                  <div class="service-blocks__item-icon">
+                    <img src="./images/service-3.svg" alt="" />
+                  </div>
+
+                  <h4 class="service-blocks__item-title">
+                    Зовнішня оптимізація
+                  </h4>
+                  <p class="service-blocks__item-subtitle">
+                    Linkbuilding, згадки, донори, профіль посилань.
+                  </p>
+
+                  <a href="#!" class="service-block__item-btn">
+                    <svg
+                      width="19"
+                      height="16"
+                      viewBox="0 0 19 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0784C15.7276 11.9354 16.0442 11.3871 15.9012 10.8536L14.5817 5.92902"
+                        stroke="black"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M12.426 9.6635L2.15632 3.73428"
+                        stroke="black"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="service-blocks__item">
+                  <div class="service-blocks__item-icon">
+                    <img src="./images/service-4.svg" alt="" />
+                  </div>
+
+                  <h4 class="service-blocks__item-title">SEO стратегія</h4>
+                  <p class="service-blocks__item-subtitle">
+                    Семантика, кластери, сторінки, план контенту.
+                  </p>
+
+                  <a href="#!" class="service-block__item-btn">
+                    <svg
+                      width="19"
+                      height="16"
+                      viewBox="0 0 19 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0784C15.7276 11.9354 16.0442 11.3871 15.9012 10.8536L14.5817 5.92902"
+                        stroke="black"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M12.426 9.6635L2.15632 3.73428"
+                        stroke="black"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="service-blocks__item">
+                  <div class="service-blocks__item-icon">
+                    <img src="./images/service-5.svg" alt="" />
+                  </div>
+
+                  <h4 class="service-blocks__item-title">Оптимізація під AI</h4>
+                  <p class="service-blocks__item-subtitle">
+                    Структура і контент під AI-пошук та відповіді.
+                  </p>
+
+                  <a href="#!" class="service-block__item-btn">
+                    <svg
+                      width="19"
+                      height="16"
+                      viewBox="0 0 19 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0784C15.7276 11.9354 16.0442 11.3871 15.9012 10.8536L14.5817 5.92902"
+                        stroke="black"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M12.426 9.6635L2.15632 3.73428"
+                        stroke="black"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="service-blocks__item reseve">
+                  <h4 class="service-blocks__item-forms">Онлайн форма</h4>
+                  <h3 class="service-blocks__item-titles">
+                    Отримайте план робіт за 24 години
+                  </h3>
+
+                  <a href="#!" class="hero-content__btn static-btn black">
+                    <span class="text">Дивитись послуги</span>
+                    <span class="circle">
+                      <svg
+                        width="19"
+                        height="16"
+                        viewBox="0 0 19 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                          stroke="black"
+                          stroke-linecap="round"
+                        ></path>
+                        <path
+                          d="M12.4255 9.66347L2.15578 3.73425"
+                          stroke="black"
+                          stroke-linecap="round"
+                        ></path>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="service-seo">
+          <div class="container">
+            <div class="service-seo__inner">
+              <div class="top">
+                <h2 class="title">
+                  Комплексні digital- <br />послуги під ключ
+                </h2>
+                <div class="muted-b">
+                  <div class="muted-b-gray"></div>
+                  <div class="muted-b-green"></div>
+                </div>
+              </div>
+
+              <div class="service-seo__content">
+                <div class="images">
+                  <div class="left">
+                    <img src="./images/ser-1.png" alt="" />
+                    <img src="./images/ser-2.png" alt="" />
+                  </div>
+
+                  <div class="right">
+                    <img src="./images/ser-3.png" alt="" />
+                    <img src="./images/ser-4.png" alt="" />
+                  </div>
+                </div>
+
+                <div class="text">
+                  <p>
+                    Ми надаємо повний спектр digital-послуг для бізнесу у [місто
+                    / регіон]: від розробки сайту та SEO-оптимізації до
+                    маркетингу й автоматизації процесів.
+                  </p>
+
+                  <p>
+                    Ми надаємо повний спектр digital-послуг для бізнесу у [місто
+                    / регіон]: від розробки сайту та SEO-оптимізації до
+                    маркетингу й автоматизації процесів.
+                  </p>
+
+                  <p>
+                    Ми надаємо повний спектр digital-послуг для бізнесу у [місто
+                    / регіон]: від розробки сайту та SEO-оптимізації до
+                    маркетингу й автоматизації процесів.
+                  </p>
+
+                  <p>
+                    Ми надаємо повний спектр digital-послуг для бізнесу у [місто
+                    / регіон]: від розробки сайту та SEO-оптимізації до
+                    маркетингу й автоматизації процесів.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="plus">
+          <div class="container">
+            <div class="plus__inner">
+              <h2 class="title">Переваги компанії</h2>
+              <p class="subtitle">Причини, чому обирають нас.</p>
+
+              <div class="plus-content">
+                <div class="top">
+                  <div class="plus-content__item">
+                    <div class="icon">
+                      <img src="./images/s-svg-1.svg" alt="" />
+                    </div>
+
+                    <span class="plus-content__item-count">01</span>
+
+                    <h4 class="plus-content__item-title">
+                      Аналіз і діагностика
+                    </h4>
+                    <p class="plus-content__item-subtitle">
+                      Ми починаємо з глибокого аналізу сайту, ніші та
+                      конкурентів. Перевіряємо технічний стан, семантику,
+                      контент і точки втрати трафіку.
+                    </p>
+                  </div>
+
+                  <div class="plus-content__item">
+                    <div class="icon">
+                      <img src="./images/s-svg-2.svg" alt="" />
+                    </div>
+
+                    <span class="plus-content__item-count">02</span>
+
+                    <h4 class="plus-content__item-title">
+                      SEO-стратегія та KPI
+                    </h4>
+                    <p class="plus-content__item-subtitle">
+                      Формуємо покроковий план росту: структура сайту, ключові
+                      запити, пріоритети та KPI. Ви чітко розумієте, що і навіщо
+                      робимо кожного місяця.
+                    </p>
+                  </div>
+
+                  <div class="plus-content__item">
+                    <div class="icon">
+                      <img src="./images/s-svg-3.svg" alt="" />
+                    </div>
+
+                    <span class="plus-content__item-count">03</span>
+
+                    <h4 class="plus-content__item-title">
+                      Технічна та on-page оптимізація
+                    </h4>
+                    <p class="plus-content__item-subtitle">
+                      Оптимізуємо швидкість, структуру, метадані та контент.
+                      Створюємо SEO-фундамент, який коректно індексується та
+                      масштабується.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bottom">
+                  <div class="plus-content__item">
+                    <div class="icon">
+                      <img src="./images/s-svg-4.svg" alt="" />
+                    </div>
+
+                    <span class="plus-content__item-count">04</span>
+
+                    <h4 class="plus-content__item-title">
+                      Контент і посилання
+                    </h4>
+                    <p class="plus-content__item-subtitle">
+                      Розвиваємо сайт через експертний контент і якісні
+                      посилання. Підсилюємо позиції, авторитет домену та
+                      охоплення у пошуку.
+                    </p>
+                  </div>
+
+                  <div class="plus-content__item">
+                    <div class="icon">
+                      <img src="./images/s-svg-5.svg" alt="" />
+                    </div>
+
+                    <span class="plus-content__item-count">05</span>
+
+                    <h4 class="plus-content__item-title">
+                      Зростання та масштабування
+                    </h4>
+                    <p class="plus-content__item-subtitle">
+                      Аналізуємо результати, масштабуємо ефективні сторінки й
+                      автоматизуємо процеси. Фокус — стабільний ріст трафіку та
+                      заявок.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="team">
+          <div class="container">
+            <div class="team__inner">
+              <h2 class="title">Команда</h2>
+              <p class="subtitle">Команда, що відповідає за результат.</p>
+
+              <div class="team-content">
+                <div class="team-content__item">
+                  <img src="./images/team-1.png" alt="" />
+
+                  <div class="team-content__user">
+                    <h3 class="team-content__user-title">Марина Л.</h3>
+                    <p class="team-content__user-subtitle">
+                      Семантика, контент, пріоритети
+                    </p>
+                  </div>
+                </div>
+
+                <div class="team-content__item">
+                  <img src="./images/team-2.png" alt="" />
+
+                  <div class="team-content__user">
+                    <h3 class="team-content__user-title">Марина Л.</h3>
+                    <p class="team-content__user-subtitle">
+                      Семантика, контент, пріоритети
+                    </p>
+                  </div>
+                </div>
+
+                <div class="team-content__item">
+                  <img src="./images/team-3.png" alt="" />
+
+                  <div class="team-content__user">
+                    <h3 class="team-content__user-title">Марина Л.</h3>
+                    <p class="team-content__user-subtitle">
+                      Семантика, контент, пріоритети
+                    </p>
+                  </div>
+                </div>
+
+                <div class="team-content__item">
+                  <img src="./images/team-4.png" alt="" />
+
+                  <div class="team-content__user">
+                    <h3 class="team-content__user-title">Марина Л.</h3>
+                    <p class="team-content__user-subtitle">
+                      Семантика, контент, пріоритети
+                    </p>
+                  </div>
+                </div>
+
+                <div class="team-content__item">
+                  <img src="./images/team-5.png" alt="" />
+
+                  <div class="team-content__user">
+                    <h3 class="team-content__user-title">Марина Л.</h3>
+                    <p class="team-content__user-subtitle">
+                      Семантика, контент, пріоритети
+                    </p>
+                  </div>
+                </div>
+
+                <div class="team-content__item">
+                  <img src="./images/team-6.png" alt="" />
+
+                  <div class="team-content__user">
+                    <h3 class="team-content__user-title">Марина Л.</h3>
+                    <p class="team-content__user-subtitle">
+                      Семантика, контент, пріоритети
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="banner">
+          <div class="container">
+            <div class="banner__inner">
+              <h2 class="banner__title">
+                Підтверджені SEO-результати, яким довіряють
+              </h2>
+              <p class="banner__subtitle">
+                Ми допомагаємо бізнесам зростати в пошуку: від стартапів до
+                масштабних проєктів. Без «води» — тільки цифри, трафік і заявки.
+              </p>
+              <a href="#!" class="hero-content__btn static-btn">
+                <span class="text">Дивитись послуги</span>
+                <span class="circle">
+                  <svg
+                    width="19"
+                    height="16"
+                    viewBox="0 0 19 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                      stroke="black"
+                      stroke-linecap="round"
+                    ></path>
+                    <path
+                      d="M12.4255 9.66347L2.15578 3.73425"
+                      stroke="black"
+                      stroke-linecap="round"
+                    ></path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <section class="form">
+          <div class="container">
+            <div class="form__inner">
+              <div class="form-content">
+                <div class="form-content__left">
+                  <h4 class="form-content__left-title">Наша пошта</h4>
+
+                  <a href="#!" class="form-content__left-info">
+                    <div class="icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          cx="2.99569"
+                          cy="2.99569"
+                          r="2.99569"
+                          transform="matrix(-1 0 0 1 15.1826 5.89355)"
+                          stroke="black"
+                        />
+                        <path
+                          d="M6.94482 16.3296C6.94482 15.6852 7.34988 15.1105 7.95669 14.8937C10.6925 13.9167 13.6821 13.9167 16.4179 14.8937C17.0247 15.1105 17.4297 15.6852 17.4297 16.3296V17.3148C17.4297 18.2041 16.6421 18.8872 15.7617 18.7614L15.4682 18.7195C13.292 18.4086 11.0826 18.4086 8.90635 18.7195L8.61283 18.7614C7.73247 18.8872 6.94482 18.2041 6.94482 17.3148V16.3296Z"
+                          stroke="black"
+                        />
+                        <path
+                          d="M16.6814 11.9678C17.9813 11.9678 19.0352 10.914 19.0352 9.61401C19.0352 8.31407 17.9813 7.26025 16.6814 7.26025"
+                          stroke="black"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M19.2593 17.3378L19.4899 17.3708C20.1816 17.4696 20.8005 16.9329 20.8005 16.2341V15.46C20.8005 14.9538 20.4822 14.5022 20.0054 14.3319C19.5299 14.162 19.0445 14.0298 18.5537 13.9351"
+                          stroke="black"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M7.3186 11.9678C6.01866 11.9678 4.96484 10.914 4.96484 9.61401C4.96484 8.31407 6.01866 7.26025 7.3186 7.26025"
+                          stroke="black"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M4.74072 17.3378L4.5101 17.3708C3.81839 17.4696 3.19952 16.9329 3.19952 16.2341V15.46C3.19952 14.9538 3.51778 14.5022 3.99456 14.3319C4.47014 14.162 4.9555 14.0298 5.44629 13.9351"
+                          stroke="black"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                    </div>
+
+                    <span>seo@info.com</span>
+                  </a>
+
+                  <h4 class="form-content__left-title">Контакти</h4>
+
+                  <a href="#!" class="form-content__left-info">
+                    <div class="icon">
+                      <svg
+                        width="17"
+                        height="17"
+                        viewBox="0 0 17 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.7769 15.8051C13.0397 17.5423 8.59091 15.91 4.8402 12.1593C1.08949 8.4086 -0.542808 3.9598 1.19436 2.22262L2.33815 1.07883C3.12778 0.289205 4.42888 0.310078 5.24426 1.12545L7.01589 2.89708C7.83126 3.71246 7.85213 5.01356 7.06251 5.80319L6.81684 6.04886C6.39051 6.47519 6.3488 7.16295 6.74494 7.64299C7.12704 8.10603 7.53898 8.56724 7.98562 9.01389C8.43227 9.46053 8.89348 9.87247 9.35652 10.2546C9.83657 10.6507 10.5243 10.609 10.9506 10.1827L11.1963 9.937C11.9859 9.14738 13.2871 9.16825 14.1024 9.98362L15.8741 11.7553C16.6894 12.5706 16.7103 13.8717 15.9207 14.6614L14.7769 15.8051Z"
+                          stroke="black"
+                        />
+                      </svg>
+                    </div>
+
+                    <span>+38 (093) XXX - XX - XX</span>
+                  </a>
+
+                  <h4 class="form-content__left-title">Наша Адреса</h4>
+
+                  <a href="#!" class="form-content__left-info">
+                    <div class="icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M19 10.6146C19 15.3639 13.4 20.3125 12 20.3125C10.6 20.3125 5 15.3639 5 10.6146C5 6.78886 8.13401 3.6875 12 3.6875C15.866 3.6875 19 6.78886 19 10.6146Z"
+                          stroke="black"
+                        />
+                        <circle
+                          cx="2.625"
+                          cy="2.625"
+                          r="2.625"
+                          transform="matrix(-1 0 0 1 14.625 7.625)"
+                          stroke="black"
+                        />
+                      </svg>
+                    </div>
+
+                    <span
+                      >365 Services GmbH Wolframstraße 39 70191 Stuttgart
+                      Deutschland</span
+                    >
+                  </a>
+
+                  <p class="form-content__left-subtitle">
+                    Від ідей до результату - ми втілюємо проєкти в реальність.
+                  </p>
+                </div>
+
+                <div class="form-content__right">
+                  <h3>Зв'яжіться з нами</h3>
+
+                  <div class="input-twice input-content">
+                    <div class="input-twice__content">
+                      <span class="input-twice__content-title"
+                        >Ваше Ім’я *</span
+                      >
+                      <input type="text" placeholder="Ім'я" name="name" />
+                    </div>
+
+                    <div class="input-twice__content">
+                      <span class="input-twice__content-title"
+                        >Ваша пошта *</span
+                      >
+                      <input type="email" placeholder="E-Mail" name="email" />
+                    </div>
+                  </div>
+
+                  <div class="input-one input-content">
+                    <div class="input-twice__content">
+                      <span class="input-twice__content-title"
+                        >Ваш номер телефону *</span
+                      >
+                      <input
+                        type="text"
+                        placeholder="+38 (XXX)- XXX - XX - XX"
+                        name="phone"
+                      />
+                    </div>
+                  </div>
+
+                  <div
+                    class="input-one input-dropdown input-content"
+                    data-dropdown
+                  >
+                    <div
+                      class="input-twice__content dropdown-trigger"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <span class="input-twice__content-title"
+                        >Оберіть напрямок</span
+                      >
+
+                      <div class="dropdown-field">
+                        <input
+                          type="text"
+                          name="service"
+                          value="SEO Аудит"
+                          readonly
+                        />
+
+                        <span class="dropdown-icon" aria-hidden="true">
+                          <svg
+                            width="13"
+                            height="8"
+                            viewBox="0 0 13 8"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M0.5 0.5L6.5 6.5L12.5 0.5"
+                              stroke="#121212"
+                              stroke-linecap="round"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+
+                    <ul class="dropdown-list list-reset" role="listbox">
+                      <li role="option" tabindex="0" data-value="SEO Аудит">
+                        SEO Аудит
+                      </li>
+                      <li
+                        role="option"
+                        tabindex="0"
+                        data-value="SEO Просування"
+                      >
+                        SEO Просування
+                      </li>
+                      <li role="option" tabindex="0" data-value="PPC Реклама">
+                        PPC Реклама
+                      </li>
+                      <li
+                        role="option"
+                        tabindex="0"
+                        data-value="Контент-маркетинг"
+                      >
+                        Контент-маркетинг
+                      </li>
+                      <li role="option" tabindex="0" data-value="Технічне SEO">
+                        Технічне SEO
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="input-one input-content">
+                    <div class="input-twice__content">
+                      <span class="input-twice__content-title"
+                        >Коментар (Не обовʼязково)</span
+                      >
+                      <textarea
+                        name="message"
+                        class="message"
+                        placeholder="Повідомлення"
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="btn-reset hero-content__btn static-btn black"
+                  >
+                    <span class="text">Залишити заявку</span>
+                    <span class="circle">
+                      <svg
+                        width="19"
+                        height="16"
+                        viewBox="0 0 19 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                          stroke="black"
+                          stroke-linecap="round"
+                        ></path>
+                        <path
+                          d="M12.4255 9.66347L2.15578 3.73425"
+                          stroke="black"
+                          stroke-linecap="round"
+                        ></path>
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="niches">
+          <div class="container">
+            <div class="niches__inner">
+              <h2 class="title">Просування за галузями</h2>
+              <p class="subtitle">12 напрямків — як у таблиці.</p>
+
+              <div class="niches-blocks">
+                <div class="niches-blocks__item">
+                  <span class="niches-blocks__item-mut"></span>
+
+                  <h4 class="niches-blocks__item-title">IT, аутсорс, SaaS</h4>
+
+                  <div class="icon">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+
+                <div class="niches-blocks__item">
+                  <span class="niches-blocks__item-mut"></span>
+
+                  <h4 class="niches-blocks__item-title">
+                    оргівля, інтернет-магазини
+                  </h4>
+
+                  <div class="icon">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+
+                <div class="niches-blocks__item">
+                  <span class="niches-blocks__item-mut"></span>
+
+                  <h4 class="niches-blocks__item-title">Медична галузь</h4>
+
+                  <div class="icon">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+
+                <div class="niches-blocks__item">
+                  <span class="niches-blocks__item-mut"></span>
+
+                  <h4 class="niches-blocks__item-title">Агро галузь</h4>
+
+                  <div class="icon">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+
+                <div class="niches-blocks__item">
+                  <span class="niches-blocks__item-mut"></span>
+
+                  <h4 class="niches-blocks__item-title">
+                    Послуги і консалтинг
+                  </h4>
+
+                  <div class="icon">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+
+                <div class="niches-blocks__item">
+                  <span class="niches-blocks__item-mut"></span>
+
+                  <h4 class="niches-blocks__item-title">Маркетинг</h4>
+
+                  <div class="icon">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+
+                <div class="niches-blocks__item">
+                  <span class="niches-blocks__item-mut"></span>
+
+                  <h4 class="niches-blocks__item-title">Нерухомість</h4>
+
+                  <div class="icon">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+
+                <div class="niches-blocks__item">
+                  <span class="niches-blocks__item-mut"></span>
+
+                  <h4 class="niches-blocks__item-title">Освіта</h4>
+
+                  <div class="icon">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+
+                <div class="niches-blocks__item">
+                  <span class="niches-blocks__item-mut"></span>
+
+                  <h4 class="niches-blocks__item-title">Фінансові послуги</h4>
+
+                  <div class="icon">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+
+                <div class="niches-blocks__item">
+                  <span class="niches-blocks__item-mut"></span>
+
+                  <h4 class="niches-blocks__item-title">
+                    Автором, оренда, продаж, пригон
+                  </h4>
+
+                  <div class="icon">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+
+                <div class="niches-blocks__item">
+                  <span class="niches-blocks__item-mut"></span>
+
+                  <h4 class="niches-blocks__item-title">Туризм</h4>
+
+                  <div class="icon">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="seo-text">
+          <div class="container">
+            <div class="seo-text__inner">
+              <div class="seo-text__start">
+                <div class="image">
+                  <img src="./images/seo-2.png" alt="" />
+                </div>
+                <div class="image">
+                  <img src="./images/seo-1.png" alt="" />
+                </div>
+
+                <div class="year">
+                  <p>2.5 +</p>
+                  <span>Років досвіду</span>
+                </div>
+              </div>
+
+              <div class="seo-text__end">
+                <h2 class="seo-text__title">SEO ТЕКСТ</h2>
+
+                <p class="seo-text__title-muted">
+                  Розгорнутий текст під ключові запити.
+                </p>
+
+                <p class="seo-text__title-subtitle">
+                  Ми надаємо професійні SEO-та digital-послуги для бізнесу у
+                  Києві, допомагаючи компаніям залучати цільовий трафік,
+                  підвищувати позиції в пошукових системах та стабільно зростати
+                  онлайн. Працюємо з різними нішами — від локального бізнесу до
+                  IT-проєктів та e-commerce, фокусуючись на результаті, а не
+                  формальностях.
+                </p>
+
+                <h5>Етапи роботи:</h5>
+
+                <ul class="seo-text__list list-reset">
+                  <li class="seo-text__list-item">
+                    <span>
+                      <svg
+                        width="11"
+                        height="8"
+                        viewBox="0 0 11 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.49979 3.56961L3.56982 6.63964L9.70989 0.499579"
+                          stroke="white"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+
+                    <p>Аудит і аналіз — оцінка ринку, ніші та конкурентів</p>
+                  </li>
+
+                  <li class="seo-text__list-item">
+                    <span>
+                      <svg
+                        width="11"
+                        height="8"
+                        viewBox="0 0 11 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.49979 3.56961L3.56982 6.63964L9.70989 0.499579"
+                          stroke="white"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+
+                    <p>
+                      Розробка і SEO — створення або оптимізація сайту під
+                      пошукові системи
+                    </p>
+                  </li>
+
+                  <li class="seo-text__list-item">
+                    <span>
+                      <svg
+                        width="11"
+                        height="8"
+                        viewBox="0 0 11 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.49979 3.56961L3.56982 6.63964L9.70989 0.499579"
+                          stroke="white"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+
+                    <p>
+                      Запуск і оптимізація — тестування, запуск, аналітика та
+                      покращення показників
+                    </p>
+                  </li>
+                </ul>
+
+                <a href="#!" class="hero-content__btn static-btn black">
+                  <span class="text">Дивитись послуги</span>
+                  <span class="circle">
+                    <svg
+                      width="19"
+                      height="16"
+                      viewBox="0 0 19 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                        stroke="black"
+                        stroke-linecap="round"
+                      ></path>
+                      <path
+                        d="M12.4255 9.66347L2.15578 3.73425"
+                        stroke="black"
+                        stroke-linecap="round"
+                      ></path>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="blog">
+          <div class="container">
+            <div class="blog__inner">
+              <h2 class="title">Блог</h2>
+              <p class="subtitle">Наші блоги</p>
+
+              <div class="swiper swiper-blog">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide swiper-slide-blog">
+                    <a href="#!" class="swiper-slide-blog-item">
+                      <div class="image">
+                        <img src="./images/blog-1.png" alt="" />
+                      </div>
+
+                      <h4 class="swiper-slide-blog-item-title">Стаття блогу</h4>
+
+                      <h5 class="swiper-slide-blog-item__muted">
+                        SEO аудит: з чого почати
+                      </h5>
+
+                      <p class="swiper-slide-blog-item__subtitle">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry....
+                      </p>
+
+                      <a href="#!" class="hero-content__btn static-btn black">
+                        <span class="text">Читати детальніше</span>
+                        <span class="circle">
+                          <svg
+                            width="19"
+                            height="16"
+                            viewBox="0 0 19 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                              stroke="black"
+                              stroke-linecap="round"
+                            ></path>
+                            <path
+                              d="M12.4255 9.66347L2.15578 3.73425"
+                              stroke="black"
+                              stroke-linecap="round"
+                            ></path>
+                          </svg>
+                        </span>
+                      </a>
+                    </a>
+                  </div>
+
+                  <div class="swiper-slide swiper-slide-blog">
+                    <a href="#!" class="swiper-slide-blog-item">
+                      <div class="image">
+                        <img src="./images/blog-1.png" alt="" />
+                      </div>
+
+                      <h4 class="swiper-slide-blog-item-title">Стаття блогу</h4>
+
+                      <h5 class="swiper-slide-blog-item__muted">
+                        SEO аудит: з чого почати
+                      </h5>
+
+                      <p class="swiper-slide-blog-item__subtitle">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry....
+                      </p>
+
+                      <a href="#!" class="hero-content__btn static-btn black">
+                        <span class="text">Читати детальніше</span>
+                        <span class="circle">
+                          <svg
+                            width="19"
+                            height="16"
+                            viewBox="0 0 19 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                              stroke="black"
+                              stroke-linecap="round"
+                            ></path>
+                            <path
+                              d="M12.4255 9.66347L2.15578 3.73425"
+                              stroke="black"
+                              stroke-linecap="round"
+                            ></path>
+                          </svg>
+                        </span>
+                      </a>
+                    </a>
+                  </div>
+
+                  <div class="swiper-slide swiper-slide-blog">
+                    <a href="#!" class="swiper-slide-blog-item">
+                      <div class="image">
+                        <img src="./images/blog-1.png" alt="" />
+                      </div>
+
+                      <h4 class="swiper-slide-blog-item-title">Стаття блогу</h4>
+
+                      <h5 class="swiper-slide-blog-item__muted">
+                        SEO аудит: з чого почати
+                      </h5>
+
+                      <p class="swiper-slide-blog-item__subtitle">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry....
+                      </p>
+
+                      <a href="#!" class="hero-content__btn static-btn black">
+                        <span class="text">Читати детальніше</span>
+                        <span class="circle">
+                          <svg
+                            width="19"
+                            height="16"
+                            viewBox="0 0 19 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                              stroke="black"
+                              stroke-linecap="round"
+                            ></path>
+                            <path
+                              d="M12.4255 9.66347L2.15578 3.73425"
+                              stroke="black"
+                              stroke-linecap="round"
+                            ></path>
+                          </svg>
+                        </span>
+                      </a>
+                    </a>
+                  </div>
+
+                  <div class="swiper-slide swiper-slide-blog">
+                    <a href="#!" class="swiper-slide-blog-item">
+                      <div class="image">
+                        <img src="./images/blog-1.png" alt="" />
+                      </div>
+
+                      <h4 class="swiper-slide-blog-item-title">Стаття блогу</h4>
+
+                      <h5 class="swiper-slide-blog-item__muted">
+                        SEO аудит: з чого почати
+                      </h5>
+
+                      <p class="swiper-slide-blog-item__subtitle">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry....
+                      </p>
+
+                      <a href="#!" class="hero-content__btn static-btn black">
+                        <span class="text">Читати детальніше</span>
+                        <span class="circle">
+                          <svg
+                            width="19"
+                            height="16"
+                            viewBox="0 0 19 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                              stroke="black"
+                              stroke-linecap="round"
+                            ></path>
+                            <path
+                              d="M12.4255 9.66347L2.15578 3.73425"
+                              stroke="black"
+                              stroke-linecap="round"
+                            ></path>
+                          </svg>
+                        </span>
+                      </a>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="faq">
+          <div class="container">
+            <div class="faq__inner">
+              <h2 class="title">FAQ</h2>
+              <p class="subtitle">Питання - відповіді</p>
+
+              <ul class="list-reset faq__list">
+                <li class="faq__list-item">
+                  <button class="btn-reset faq__list-btn">
+                    Коли будуть результати?
+                  </button>
+
+                  <p class="faq__list-subtitle">
+                    Ми надаємо повний спектр digital-послуг для бізнесу у [місто
+                    / регіон]: від розробки сайту та SEO-оптимізації до
+                    маркетингу й автоматизації процесів.
+                  </p>
+                </li>
+
+                <li class="faq__list-item">
+                  <button class="btn-reset faq__list-btn">
+                    Чи можна почати з аудиту?
+                  </button>
+
+                  <p class="faq__list-subtitle">
+                    Ми надаємо повний спектр digital-послуг для бізнесу у [місто
+                    / регіон]: від розробки сайту та SEO-оптимізації до
+                    маркетингу й автоматизації процесів.
+                  </p>
+                </li>
+
+                <li class="faq__list-item">
+                  <button class="btn-reset faq__list-btn">
+                    Які доступи потрібні?
+                  </button>
+
+                  <p class="faq__list-subtitle">
+                    Ми надаємо повний спектр digital-послуг для бізнесу у [місто
+                    / регіон]: від розробки сайту та SEO-оптимізації до
+                    маркетингу й автоматизації процесів.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section> 
       </main>
 
       <footer class="footer">
         <div class="container">
-          <div class="footer__inner"></div>
+          <div class="footer__inner">
+            <a href="#!" class="footer__logo">
+              <img src="./images/logo.png" alt="" />
+            </a>
+
+            <div class="footer-content">
+              <div class="nav">
+                <h4 class="nav-title">SEO послуги</h4>
+
+                <ul class="footer-content__list list-reset">
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Замовити SEO</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Внутрішня SEO оптимізація</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Зовнішня SEO оптимізація
+                    </a>
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Linkbuilding</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Просування сайту в google</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Оптимізація під AI</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link">SEO Аудит</a>
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Технічний SEO Аналіз</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >SEO стратегія</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >SEO оптимізація контенту</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Налаштування SEO плагінів</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="nav">
+                <h4 class="nav-title">AI послуги</h4>
+
+                <ul class="footer-content__list list-reset">
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >AI рішення для SEO просування</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Автоматизація бізнесу, Впровадження ШІ</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Штучний інтелект для відділу продаж</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Штучний інтелект для відділу маркетингу</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Автоматизація email розсилок</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Автоматизація SMM</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >AI Парсери google map</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="nav">
+                <h4 class="nav-title">SEO для CMS</h4>
+
+                <ul class="footer-content__list list-reset">
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >SEO просування сайту WordPress</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >SEO просування сайту OpenCart</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="nav">
+                <h4 class="nav-title">Локальне SEO</h4>
+
+                <ul class="footer-content__list list-reset">
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Розкрутка сайту Київ</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Розкрутка сайту Львів</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Розкрутка сайту Дніпро</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Розкрутка сайту Одеса</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="nav">
+                <h4 class="nav-title">SEO для бізнесу</h4>
+
+                <ul class="footer-content__list list-reset">
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Просування інтернет-магазину</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Просування сайту послуг</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
 
     <script src="./js/main.js"></script>
+    <script src="./js/animations.js"></script>
+    <script src="./js/dropdown.js"></script>
+    <script src="./js/faq.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js"></script>
-    <script src="./js/swiper-min.js"></script>
   </body>
 </html>

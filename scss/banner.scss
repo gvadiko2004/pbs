@@ -1,0 +1,78 @@
+.banner {
+  position: relative;
+
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  margin-top: 70px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.75) 0%,
+      rgba(0, 0, 0, 0.4) 40%,
+      rgba(0, 0, 0, 0.7) 100%
+    );
+
+    z-index: 1;
+  }
+
+  // .banner__inner
+
+  &__inner {
+    position: relative;
+    z-index: 111;
+
+    padding: 70px 0;
+
+    @media (max-width: 1080px) {
+      padding: 35px 0;
+    }
+  }
+
+  // .banner__title
+
+  &__title {
+    font-weight: 700;
+    font-size: clamp(1.5rem, 1.115rem + 1.4vw, 2.375rem);
+    max-width: 620px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  // .banner__subtitle
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: clamp(0.875rem, 0.765rem + 0.4vw, 1.125rem);
+    color: #fff;
+
+    margin: 20px 0 28px 0;
+    max-width: 580px;
+
+    @media (max-width: 1080px) {
+      margin: 14px 0 20px 0;
+    }
+  }
+}
+.container {
+}
+.hero-content {
+  // .hero-content__btn
+
+  &__btn {
+  }
+}
+.static-btn {
+}
+.text {
+}
+.circle {
+}

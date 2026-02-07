@@ -1,0 +1,256 @@
+.input-dropdown {
+  position: relative;
+}
+
+/* Триггер (твоя обёртка) */
+.dropdown-trigger {
+  cursor: pointer;
+}
+
+/* Поле + иконка */
+.dropdown-field {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-field svg {
+  width: 8px;
+  height: 8px;
+}
+
+.dropdown-field input {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Иконка стрелки */
+.dropdown-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  pointer-events: none; /* чтобы клики шли в trigger */
+  transition: transform 0.2s ease;
+}
+
+/* Сам список */
+.dropdown-list {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  width: 100%;
+
+  background: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+
+  padding: 6px 0;
+  margin: 0;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-6px);
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease,
+    visibility 0.18s ease;
+
+  z-index: 30;
+  padding: 0;
+  overflow: hidden;
+}
+
+.dropdown-list li {
+  padding: 14px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  color: var(----black);
+  border-bottom: 1px solid #00000033;
+  transition: 0.2s ease;
+}
+
+.dropdown-list li:hover,
+.dropdown-list li:focus {
+  outline: none;
+  opacity: 0.7;
+  background-color: #151515;
+  color: #fff;
+}
+
+/* ✅ Открытие по hover */
+.input-dropdown:hover .dropdown-list {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* ✅ Открытие по клику (active) */
+.input-dropdown.active .dropdown-list {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* ✅ Поворот стрелки когда открыт (hover или active) */
+.input-dropdown:hover .dropdown-icon {
+  transform: translateY(-50%) rotate(180deg);
+}
+.input-dropdown.active .dropdown-icon {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+/* ACTIVE */
+.input-dropdown.active .dropdown-list {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.form {
+  margin: 70px 0 0 0;
+
+  @media (max-width: 768px) {
+    margin: 30px 0 0 0;
+  }
+}
+
+// form-content
+
+.form-content {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 30px;
+
+  position: relative;
+  z-index: 111;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.form-content__left {
+  position: relative;
+
+  background-image: url("../images/form.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 24px;
+  border-radius: 32px;
+  overflow: hidden;
+
+  @media (max-width: 440px) {
+    border-radius: 20px;
+  }
+
+  position: relative;
+  z-index: 111;
+
+  * {
+    color: #fff;
+  }
+}
+
+.form-content__right h3 {
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: -0.02em;
+  color: #000;
+
+  margin-bottom: 30px;
+}
+
+.form-content__right .static-btn {
+  margin-top: 6px;
+}
+
+.form-content__left-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin: 14px 0 28px 0;
+
+  .icon {
+    min-width: 40px;
+    min-height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 100px;
+    background-color: #fff;
+  }
+}
+
+.form-content__left-subtitle {
+  position: absolute;
+  bottom: 24px;
+
+  @media (max-width: 768px) {
+    position: static;
+    margin-top: 42px;
+  }
+}
+
+.input-twice {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  gap: 12px;
+}
+
+.input-twice__content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  textarea {
+    height: 130px;
+  }
+
+  textarea,
+  input {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 0.887);
+
+    padding: 10px 14px;
+
+    background: rgba(0, 0, 0, 0.05);
+
+    border: 1px solid rgba(178, 178, 178, 0.2);
+    border-radius: 6px;
+    resize: none;
+
+    outline: none;
+
+    &::placeholder {
+      font-weight: 400;
+      font-size: 14px;
+      letter-spacing: -0.01em;
+      color: rgba(0, 0, 0, 0.6);
+    }
+  }
+}
+
+.input-twice__content-title {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: -0.01em;
+  color: #0d0d0d;
+}
+
+.input-content {
+  margin-bottom: 18px;
+}
