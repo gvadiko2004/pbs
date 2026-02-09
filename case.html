@@ -1,0 +1,2451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <style>
+      .breadcrumps__list-link {
+        color: var(----black);
+      }
+      .btn-menu-open span {
+        background-color: var(----black);
+      }
+
+      .breadcrumps__list-slash {
+        color: var(----black) !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a href="./index.html" class="header__logo">
+              <img src="./images/logo.png" alt="PBS" />
+            </a>
+
+            <div class="menu-navs">
+              <div class="menu-nav__top">
+                <button class="btn-reset btn-close-menu">
+                  <svg
+                    width="21"
+                    height="21"
+                    viewBox="0 0 21 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.499981 20.2572L20.2571 0.5"
+                      stroke="black"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M0.499979 0.500166L20.2571 20.2573"
+                      stroke="black"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+
+              <ul class="header__list list-reset">
+                <li class="header__list-item">
+                  <a href="./index.html" class="header__list-link">
+                    <span>Головна</span>
+                  </a>
+                </li>
+
+                <!-- ====== DROPDOWN 1 ====== -->
+                <li class="header__list-item has-drop menu-link-1">
+                  <a
+                    href="#!"
+                    class="header__list-link drop js-menu-trigger"
+                    aria-expanded="false"
+                  >
+                    Послуги
+                    <span>
+                      <svg
+                        width="6"
+                        height="3"
+                        viewBox="0 0 6 3"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.25 0.250015L2.75 2.25002L5.25 0.250015"
+                          stroke="white"
+                          stroke-width="0.5"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+
+                  <div class="menu menu-1" aria-hidden="true">
+                    <div class="menu__inner">
+                      <div class="menu-nav">
+                        <h3 class="menu-nav__title">Seo послуги</h3>
+
+                        <ul class="menu-nav__list list-reset">
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link"
+                              >Seo послуги</a
+                            >
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Внутрішня SEO оптимізація сайту one-page
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link"
+                              >Linkbuilding</a
+                            >
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Просування сайту в google
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Оптимізація під AI
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link"
+                              >SEO Аудит</a
+                            >
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Технічний SEO Аналіз
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link"
+                              >SEO стратегія</a
+                            >
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              SEO оптимізація контенту
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Налаштування SEO плагінів
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="menu-nav">
+                        <h3 class="menu-nav__title">SEO для CMS</h3>
+
+                        <ul class="menu-nav__list list-reset">
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              SEO просування сайту WordPress
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              SEO просування сайту OpenCart
+                            </a>
+                          </li>
+                        </ul>
+
+                        <h3 class="menu-nav__title">SEO для бізнесу</h3>
+
+                        <ul class="menu-nav__list list-reset">
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              SEO просування сайту WordPress
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              SEO просування сайту OpenCart
+                            </a>
+                          </li>
+                        </ul>
+
+                        <h3 class="menu-nav__title">Локальне SEO</h3>
+
+                        <ul class="menu-nav__list list-reset">
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Розкрутка сайту Київ
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Розкрутка сайту Львів
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Розкрутка сайту Дніпро
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Розкрутка сайту Одеса
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="online-form">
+                        <span class="online-form__muted"> Онлайн форма </span>
+
+                        <h4 class="online-form__title">
+                          Отримайте план робіт за 24 години
+                        </h4>
+
+                        <span class="online-form__pag">
+                          Аудит → пріоритети → KPI. Без води.
+                        </span>
+
+                        <a href="#!" class="hero-content__btn static-btn">
+                          <span class="text">Дивитись послуги</span>
+                          <span class="circle">
+                            <svg
+                              width="19"
+                              height="16"
+                              viewBox="0 0 19 16"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                                stroke="black"
+                                stroke-linecap="round"
+                              ></path>
+                              <path
+                                d="M12.4255 9.66347L2.15578 3.73425"
+                                stroke="black"
+                                stroke-linecap="round"
+                              ></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <!-- ====== DROPDOWN 2 ====== -->
+                <li class="header__list-item has-drop menu-link-2">
+                  <a
+                    href="#!"
+                    class="header__list-link drop js-menu-trigger"
+                    aria-expanded="false"
+                  >
+                    AI Послуги
+                    <span>
+                      <svg
+                        width="6"
+                        height="3"
+                        viewBox="0 0 6 3"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.25 0.250015L2.75 2.25002L5.25 0.250015"
+                          stroke="white"
+                          stroke-width="0.5"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+
+                  <div class="menu menu-2" aria-hidden="true">
+                    <div class="menu__inner">
+                      <div class="menu-nav">
+                        <h3 class="menu-nav__title">AI послуги</h3>
+
+                        <ul class="menu-nav__list list-reset">
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              AI рішення для SEO просування
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Автоматизація бізнесу, Впровадження ШІ
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Штучний інтелект для відділу продаж
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Штучний інтелект для відділу маркетингу
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Автоматизація email розсилок
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              Автоматизація SMM
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="./service.html" class="menu-nav__list-link">
+                              AI Парсери google map
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="online-form">
+                        <span class="online-form__muted"> Підписка </span>
+
+                        <h4 class="online-form__title">
+                          Готові AI-рішення для команд
+                        </h4>
+
+                        <span class="online-form__pag">
+                          Воронки, email, SMM, інтеграції.
+                        </span>
+
+                        <a href="#!" class="hero-content__btn static-btn">
+                          <span class="text">Подивитися ціни</span>
+                          <span class="circle">
+                            <svg
+                              width="19"
+                              height="16"
+                              viewBox="0 0 19 16"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                                stroke="black"
+                                stroke-linecap="round"
+                              ></path>
+                              <path
+                                d="M12.4255 9.66347L2.15578 3.73425"
+                                stroke="black"
+                                stroke-linecap="round"
+                              ></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="header__list-item">
+                  <a href="#service-seo" class="header__list-link">
+                    <span>Про компанію</span>
+                  </a>
+                </li>
+
+                <li class="header__list-item">
+                  <a href="./case.html" class="header__list-link">
+                    <span>Кейси</span>
+                  </a>
+                </li>
+
+                <li class="header__list-item">
+                  <a href="#!" class="header__list-link">
+                    <span>Блог</span>
+                  </a>
+                </li>
+              </ul>
+
+              <a href="#!" class="hero-content__btn static-btn-hd static-btn black">
+                <span class="text">Дивитись послуги</span>
+                <span class="circle">
+                  <svg
+                    width="19"
+                    height="16"
+                    viewBox="0 0 19 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                      stroke="black"
+                      stroke-linecap="round"
+                    ></path>
+                    <path
+                      d="M12.4255 9.66347L2.15578 3.73425"
+                      stroke="black"
+                      stroke-linecap="round"
+                    ></path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+
+            <div class="end">
+              <div class="header-action">
+                <div class="header-action__info">
+                  <a
+                    href="tel:+38 (093) XXX - XX - XX"
+                    class="header-action__info-link"
+                  >
+                    +38 (093) XXX - XX - XX
+                  </a>
+                  <a
+                    href="mailto:seo@info.com"
+                    class="header-action__info-link"
+                  >
+                    seo@info.com
+                  </a>
+                </div>
+
+                <span class="end__line">
+                  <svg
+                    width="1"
+                    height="40"
+                    viewBox="0 0 1 40"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.25 0V39.5"
+                      stroke="url(#paint0_linear_12_2885)"
+                      stroke-width="0.5"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_12_2885"
+                        x1="0.75"
+                        y1="0"
+                        x2="0.75"
+                        y2="39.5"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="white" stop-opacity="0.6" />
+                        <stop
+                          offset="1"
+                          stop-color="#999999"
+                          stop-opacity="0.1"
+                        />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </span>
+
+                <div class="header-action__contact">
+                  <a href="#!" class="header-action__contact-icon">
+                    <svg
+                      width="16"
+                      height="13"
+                      viewBox="0 0 16 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        x="0.5"
+                        y="0.5"
+                        width="15"
+                        height="12"
+                        rx="2"
+                        stroke="black"
+                      />
+                      <path
+                        d="M3.5 4.5L6.8 6.975C7.51111 7.50833 8.48889 7.50833 9.2 6.975L12.5 4.5"
+                        stroke="black"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+
+                  <a href="#!" class="header-action__contact-icon">
+                    <svg
+                      width="13"
+                      height="13"
+                      viewBox="0 0 13 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.2075 11.9789C9.90467 13.2818 6.56806 12.0576 3.75503 9.24453C0.941995 6.4315 -0.282228 3.09489 1.02065 1.79201L1.87849 0.934168C2.47071 0.34195 3.44654 0.357604 4.05807 0.969133L5.3868 2.29786C5.99832 2.90939 6.01398 3.88522 5.42176 4.47744L5.23751 4.66169C4.91776 4.98144 4.88648 5.49726 5.18358 5.85729C5.47016 6.20457 5.77911 6.55048 6.1141 6.88546C6.44908 7.22045 6.79499 7.5294 7.14227 7.81598C7.5023 8.11308 8.01812 8.0818 8.33786 7.76205L8.52212 7.5778C9.11434 6.98558 10.0902 7.00123 10.7017 7.61276L12.0304 8.94149C12.642 9.55302 12.6576 10.5288 12.0654 11.1211L11.2075 11.9789Z"
+                        stroke="black"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn-reset btn-menu-open">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="case">
+          <div class="container">
+            <div class="case__inner">
+              <div class="bread">
+                <span class="circle"> </span>
+
+                <ul class="list-reset breadcrumps__list">
+                  <li class="breadcrumps__list-item">
+                    <a href="#!" class="breadcrumps__list-link">Головна</a>
+                  </li>
+
+                  <span class="breadcrumps__list-slash">/</span>
+
+                  <li class="breadcrumps__list-item">
+                    <a href="#!" class="breadcrumps__list-link">Послуги</a>
+                  </li>
+
+                  <span class="breadcrumps__list-slash">/</span>
+
+                  <li class="breadcrumps__list-item">
+                    <a href="#!" class="breadcrumps__list-link">SEO Послуги</a>
+                  </li>
+                </ul>
+              </div>
+
+              <h2 class="title">Усі кейси</h2>
+
+              <div class="case-items" id="cases">
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-1.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-2.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-3.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-1.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-2.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-3.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-1.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-2.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-3.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-1.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-2.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-3.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-1.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-2.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-3.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-1.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-2.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-3.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-1.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-2.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-3.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-1.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-2.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-3.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-1.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-2.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-3.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-1.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-2.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-3.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-1.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-2.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-3.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-1.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-2.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+
+                <a href="#!" class="case-items__item">
+                  <div class="case-items__item-image">
+                    <span class="case-items__item-muted"
+                      >+435 % трафіку, +4600 % конверсій - цифри, які говорять
+                      самі за себе!</span
+                    >
+
+                    <img src="./images/case-3.png" alt="" />
+                  </div>
+
+                  <h4 class="case-items__item-title">
+                    Кейс з просування магазину електроінструментів
+                  </h4>
+
+                  <ul class="list-reset case-items__list">
+                    <li class="case-items__list-item">
+                      <p>Трафік</p>
+                      <h5>+ 435,74 %</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Конверсії</p>
+                      <h5>+ 4600%</h5>
+                    </li>
+
+                    <li class="case-items__list-item">
+                      <p>Відвідувачів</p>
+                      <h5>9402/міс</h5>
+                    </li>
+                  </ul>
+                </a>
+              </div>
+
+              <div class="pagination" id="casesPagination"></div>
+
+              <!-- <div class="pagination">
+                <ul class="list-reset pagination__list">
+                  <li class="pagination__list-item active">
+                    <button class="btn-reset pagination__list-link">1</button>
+                  </li>
+
+                  <li class="pagination__list-item">
+                    <button class="btn-reset pagination__list-link">2</button>
+                  </li>
+
+                  <li class="pagination__list-item">
+                    <button class="btn-reset pagination__list-link">3</button>
+                  </li>
+                </ul>
+              </div> -->
+            </div>
+          </div>
+        </section>
+
+        <div class="banner">
+          <div class="container">
+            <div class="banner__inner">
+              <h2 class="banner__title">
+                Підтверджені SEO-результати, яким довіряють
+              </h2>
+              <p class="banner__subtitle">
+                Ми допомагаємо бізнесам зростати в пошуку: від стартапів до
+                масштабних проєктів. Без «води» — тільки цифри, трафік і заявки.
+              </p>
+              <a href="#!" class="hero-content__btn static-btn">
+                <span class="text">Дивитись послуги</span>
+                <span class="circle">
+                  <svg
+                    width="19"
+                    height="16"
+                    viewBox="0 0 19 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                      stroke="black"
+                      stroke-linecap="round"
+                    ></path>
+                    <path
+                      d="M12.4255 9.66347L2.15578 3.73425"
+                      stroke="black"
+                      stroke-linecap="round"
+                    ></path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <section class="seo-text">
+          <div class="container">
+            <div class="seo-text__inner">
+              <div class="seo-text__start">
+                <div class="image">
+                  <img src="./images/seo-2.png" alt="" />
+                </div>
+                <div class="image">
+                  <img src="./images/seo-1.png" alt="" />
+                </div>
+
+                <div class="year">
+                  <p>2.5 +</p>
+                  <span>Років досвіду</span>
+                </div>
+              </div>
+
+              <div class="seo-text__end">
+                <h2 class="seo-text__title">SEO ТЕКСТ</h2>
+
+                <p class="seo-text__title-muted">
+                  Розгорнутий текст під ключові запити.
+                </p>
+
+                <p class="seo-text__title-subtitle">
+                  Ми надаємо професійні SEO-та digital-послуги для бізнесу у
+                  Києві, допомагаючи компаніям залучати цільовий трафік,
+                  підвищувати позиції в пошукових системах та стабільно зростати
+                  онлайн. Працюємо з різними нішами — від локального бізнесу до
+                  IT-проєктів та e-commerce, фокусуючись на результаті, а не
+                  формальностях.
+                </p>
+
+                <h5>Етапи роботи:</h5>
+
+                <ul class="seo-text__list list-reset">
+                  <li class="seo-text__list-item">
+                    <span>
+                      <svg
+                        width="11"
+                        height="8"
+                        viewBox="0 0 11 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.49979 3.56961L3.56982 6.63964L9.70989 0.499579"
+                          stroke="white"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+
+                    <p>Аудит і аналіз — оцінка ринку, ніші та конкурентів</p>
+                  </li>
+
+                  <li class="seo-text__list-item">
+                    <span>
+                      <svg
+                        width="11"
+                        height="8"
+                        viewBox="0 0 11 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.49979 3.56961L3.56982 6.63964L9.70989 0.499579"
+                          stroke="white"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+
+                    <p>
+                      Розробка і SEO — створення або оптимізація сайту під
+                      пошукові системи
+                    </p>
+                  </li>
+
+                  <li class="seo-text__list-item">
+                    <span>
+                      <svg
+                        width="11"
+                        height="8"
+                        viewBox="0 0 11 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.49979 3.56961L3.56982 6.63964L9.70989 0.499579"
+                          stroke="white"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+
+                    <p>
+                      Запуск і оптимізація — тестування, запуск, аналітика та
+                      покращення показників
+                    </p>
+                  </li>
+                </ul>
+
+                <a href="#!" class="hero-content__btn static-btn black">
+                  <span class="text">Дивитись послуги</span>
+                  <span class="circle">
+                    <svg
+                      width="19"
+                      height="16"
+                      viewBox="0 0 19 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                        stroke="black"
+                        stroke-linecap="round"
+                      ></path>
+                      <path
+                        d="M12.4255 9.66347L2.15578 3.73425"
+                        stroke="black"
+                        stroke-linecap="round"
+                      ></path>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="form">
+          <div class="container">
+            <div class="form__inner">
+              <div class="form-content">
+                <div class="form-content__left">
+                  <h4 class="form-content__left-title">Наша пошта</h4>
+
+                  <a href="#!" class="form-content__left-info">
+                    <div class="icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          cx="2.99569"
+                          cy="2.99569"
+                          r="2.99569"
+                          transform="matrix(-1 0 0 1 15.1826 5.89355)"
+                          stroke="black"
+                        />
+                        <path
+                          d="M6.94482 16.3296C6.94482 15.6852 7.34988 15.1105 7.95669 14.8937C10.6925 13.9167 13.6821 13.9167 16.4179 14.8937C17.0247 15.1105 17.4297 15.6852 17.4297 16.3296V17.3148C17.4297 18.2041 16.6421 18.8872 15.7617 18.7614L15.4682 18.7195C13.292 18.4086 11.0826 18.4086 8.90635 18.7195L8.61283 18.7614C7.73247 18.8872 6.94482 18.2041 6.94482 17.3148V16.3296Z"
+                          stroke="black"
+                        />
+                        <path
+                          d="M16.6814 11.9678C17.9813 11.9678 19.0352 10.914 19.0352 9.61401C19.0352 8.31407 17.9813 7.26025 16.6814 7.26025"
+                          stroke="black"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M19.2593 17.3378L19.4899 17.3708C20.1816 17.4696 20.8005 16.9329 20.8005 16.2341V15.46C20.8005 14.9538 20.4822 14.5022 20.0054 14.3319C19.5299 14.162 19.0445 14.0298 18.5537 13.9351"
+                          stroke="black"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M7.3186 11.9678C6.01866 11.9678 4.96484 10.914 4.96484 9.61401C4.96484 8.31407 6.01866 7.26025 7.3186 7.26025"
+                          stroke="black"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M4.74072 17.3378L4.5101 17.3708C3.81839 17.4696 3.19952 16.9329 3.19952 16.2341V15.46C3.19952 14.9538 3.51778 14.5022 3.99456 14.3319C4.47014 14.162 4.9555 14.0298 5.44629 13.9351"
+                          stroke="black"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                    </div>
+
+                    <span>seo@info.com</span>
+                  </a>
+
+                  <h4 class="form-content__left-title">Контакти</h4>
+
+                  <a href="#!" class="form-content__left-info">
+                    <div class="icon">
+                      <svg
+                        width="17"
+                        height="17"
+                        viewBox="0 0 17 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.7769 15.8051C13.0397 17.5423 8.59091 15.91 4.8402 12.1593C1.08949 8.4086 -0.542808 3.9598 1.19436 2.22262L2.33815 1.07883C3.12778 0.289205 4.42888 0.310078 5.24426 1.12545L7.01589 2.89708C7.83126 3.71246 7.85213 5.01356 7.06251 5.80319L6.81684 6.04886C6.39051 6.47519 6.3488 7.16295 6.74494 7.64299C7.12704 8.10603 7.53898 8.56724 7.98562 9.01389C8.43227 9.46053 8.89348 9.87247 9.35652 10.2546C9.83657 10.6507 10.5243 10.609 10.9506 10.1827L11.1963 9.937C11.9859 9.14738 13.2871 9.16825 14.1024 9.98362L15.8741 11.7553C16.6894 12.5706 16.7103 13.8717 15.9207 14.6614L14.7769 15.8051Z"
+                          stroke="black"
+                        />
+                      </svg>
+                    </div>
+
+                    <span>+38 (093) XXX - XX - XX</span>
+                  </a>
+
+                  <h4 class="form-content__left-title">Наша Адреса</h4>
+
+                  <a href="#!" class="form-content__left-info">
+                    <div class="icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M19 10.6146C19 15.3639 13.4 20.3125 12 20.3125C10.6 20.3125 5 15.3639 5 10.6146C5 6.78886 8.13401 3.6875 12 3.6875C15.866 3.6875 19 6.78886 19 10.6146Z"
+                          stroke="black"
+                        />
+                        <circle
+                          cx="2.625"
+                          cy="2.625"
+                          r="2.625"
+                          transform="matrix(-1 0 0 1 14.625 7.625)"
+                          stroke="black"
+                        />
+                      </svg>
+                    </div>
+
+                    <span
+                      >365 Services GmbH Wolframstraße 39 70191 Stuttgart
+                      Deutschland</span
+                    >
+                  </a>
+
+                  <p class="form-content__left-subtitle">
+                    Від ідей до результату - ми втілюємо проєкти в реальність.
+                  </p>
+                </div>
+
+                <div class="form-content__right">
+                  <h3>Зв'яжіться з нами</h3>
+
+                  <div class="input-twice input-content">
+                    <div class="input-twice__content">
+                      <span class="input-twice__content-title"
+                        >Ваше Ім’я *</span
+                      >
+                      <input type="text" placeholder="Ім'я" name="name" />
+                    </div>
+
+                    <div class="input-twice__content">
+                      <span class="input-twice__content-title"
+                        >Ваша пошта *</span
+                      >
+                      <input type="email" placeholder="E-Mail" name="email" />
+                    </div>
+                  </div>
+
+                  <div class="input-one input-content">
+                    <div class="input-twice__content">
+                      <span class="input-twice__content-title"
+                        >Ваш номер телефону *</span
+                      >
+                      <input
+                        type="text"
+                        placeholder="+38 (XXX)- XXX - XX - XX"
+                        name="phone"
+                      />
+                    </div>
+                  </div>
+
+                  <div
+                    class="input-one input-dropdown input-content"
+                    data-dropdown
+                  >
+                    <div
+                      class="input-twice__content dropdown-trigger"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <span class="input-twice__content-title"
+                        >Оберіть напрямок</span
+                      >
+
+                      <div class="dropdown-field">
+                        <input
+                          type="text"
+                          name="service"
+                          value="SEO Аудит"
+                          readonly
+                        />
+
+                        <span class="dropdown-icon" aria-hidden="true">
+                          <svg
+                            width="13"
+                            height="8"
+                            viewBox="0 0 13 8"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M0.5 0.5L6.5 6.5L12.5 0.5"
+                              stroke="#121212"
+                              stroke-linecap="round"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+
+                    <ul class="dropdown-list list-reset" role="listbox">
+                      <li role="option" tabindex="0" data-value="SEO Аудит">
+                        SEO Аудит
+                      </li>
+                      <li
+                        role="option"
+                        tabindex="0"
+                        data-value="SEO Просування"
+                      >
+                        SEO Просування
+                      </li>
+                      <li role="option" tabindex="0" data-value="PPC Реклама">
+                        PPC Реклама
+                      </li>
+                      <li
+                        role="option"
+                        tabindex="0"
+                        data-value="Контент-маркетинг"
+                      >
+                        Контент-маркетинг
+                      </li>
+                      <li role="option" tabindex="0" data-value="Технічне SEO">
+                        Технічне SEO
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="input-one input-content">
+                    <div class="input-twice__content">
+                      <span class="input-twice__content-title"
+                        >Коментар (Не обовʼязково)</span
+                      >
+                      <textarea
+                        name="message"
+                        class="message"
+                        placeholder="Повідомлення"
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="btn-reset hero-content__btn static-btn black"
+                  >
+                    <span class="text">Залишити заявку</span>
+                    <span class="circle">
+                      <svg
+                        width="19"
+                        height="16"
+                        viewBox="0 0 19 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                          stroke="black"
+                          stroke-linecap="round"
+                        ></path>
+                        <path
+                          d="M12.4255 9.66347L2.15578 3.73425"
+                          stroke="black"
+                          stroke-linecap="round"
+                        ></path>
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="faq">
+          <div class="container">
+            <div class="faq__inner">
+              <h2 class="title">FAQ</h2>
+              <p class="subtitle">Питання - відповіді</p>
+
+              <ul class="list-reset faq__list">
+                <li class="faq__list-item">
+                  <button class="btn-reset faq__list-btn">
+                    Коли будуть результати?
+                  </button>
+
+                  <p class="faq__list-subtitle">
+                    Ми надаємо повний спектр digital-послуг для бізнесу у [місто
+                    / регіон]: від розробки сайту та SEO-оптимізації до
+                    маркетингу й автоматизації процесів.
+                  </p>
+                </li>
+
+                <li class="faq__list-item">
+                  <button class="btn-reset faq__list-btn">
+                    Чи можна почати з аудиту?
+                  </button>
+
+                  <p class="faq__list-subtitle">
+                    Ми надаємо повний спектр digital-послуг для бізнесу у [місто
+                    / регіон]: від розробки сайту та SEO-оптимізації до
+                    маркетингу й автоматизації процесів.
+                  </p>
+                </li>
+
+                <li class="faq__list-item">
+                  <button class="btn-reset faq__list-btn">
+                    Які доступи потрібні?
+                  </button>
+
+                  <p class="faq__list-subtitle">
+                    Ми надаємо повний спектр digital-послуг для бізнесу у [місто
+                    / регіон]: від розробки сайту та SEO-оптимізації до
+                    маркетингу й автоматизації процесів.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <a href="#!" class="footer__logo">
+              <img src="./images/logo.png" alt="" />
+            </a>
+
+            <div class="footer-content">
+              <div class="nav">
+                <h4 class="nav-title">SEO послуги</h4>
+
+                <ul class="footer-content__list list-reset">
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Замовити SEO</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Внутрішня SEO оптимізація</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Зовнішня SEO оптимізація
+                    </a>
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Linkbuilding</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Просування сайту в google</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Оптимізація під AI</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link">SEO Аудит</a>
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Технічний SEO Аналіз</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >SEO стратегія</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >SEO оптимізація контенту</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Налаштування SEO плагінів</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="nav">
+                <h4 class="nav-title">AI послуги</h4>
+
+                <ul class="footer-content__list list-reset">
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >AI рішення для SEO просування</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Автоматизація бізнесу, Впровадження ШІ</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Штучний інтелект для відділу продаж</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Штучний інтелект для відділу маркетингу</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Автоматизація email розсилок</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Автоматизація SMM</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >AI Парсери google map</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="nav">
+                <h4 class="nav-title">SEO для CMS</h4>
+
+                <ul class="footer-content__list list-reset">
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >SEO просування сайту WordPress</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >SEO просування сайту OpenCart</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="nav">
+                <h4 class="nav-title">Локальне SEO</h4>
+
+                <ul class="footer-content__list list-reset">
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Розкрутка сайту Київ</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Розкрутка сайту Львів</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Розкрутка сайту Дніпро</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Розкрутка сайту Одеса</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="nav">
+                <h4 class="nav-title">SEO для бізнесу</h4>
+
+                <ul class="footer-content__list list-reset">
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Просування інтернет-магазину</a
+                    >
+                  </li>
+
+                  <li class="footer-content__list-item">
+                    <a href="#!" class="footer-content__list-link"
+                      >Просування сайту послуг</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <p class="footer__copyright">
+            © 2019 Lift Media | All Rights Reserved
+          </p>
+        </div>
+
+        <div class="f-circle-1">
+          <svg
+            width="191"
+            height="162"
+            viewBox="0 0 191 162"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              opacity="0.35"
+              cx="41.5"
+              cy="149.5"
+              r="119.5"
+              stroke="white"
+              stroke-width="60"
+            />
+          </svg>
+        </div>
+
+        <div class="f-circle-2">
+          <svg
+            width="325"
+            height="261"
+            viewBox="0 0 325 261"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="322.5"
+              cy="-61.5"
+              r="262.5"
+              stroke="white"
+              stroke-opacity="0.1"
+              stroke-width="120"
+            />
+          </svg>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/animations.js"></script>
+    <script src="./js/dropdown.js"></script>
+    <script src="./js/faq.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/paginations.js"></script>
+  </body>
+</html>

@@ -128,6 +128,14 @@ document.querySelector(".btn-menu-open").addEventListener("click", function () {
   document.querySelector(".menu-navs").classList.add("active");
 });
 
-document.querySelector(".btn-close-menu").addEventListener("click", function () {
-  document.querySelector(".menu-navs").classList.remove("active");
+document
+  .querySelector(".btn-close-menu")
+  .addEventListener("click", function () {
+    document.querySelector(".menu-navs").classList.remove("active");
+  });
+
+document.querySelectorAll(".header__list-item").forEach((item) => {
+  item.addEventListener("click", function () {
+    document.querySelector(".menu-navs").classList.remove("active");
+  });
 });

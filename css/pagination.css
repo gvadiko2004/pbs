@@ -1,0 +1,22 @@
+.pagination__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.pagination__list-item {
+  border-radius: 4px;
+  width: 34px;
+  height: 34px;
+  background: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+.pagination__list-item.active {
+  color: #fff;
+  background-color: var(----black);
+}

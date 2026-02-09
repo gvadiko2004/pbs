@@ -30,6 +30,10 @@
     flex-direction: column;
     justify-content: center;
     height: 100vh;
+
+    @media (max-width: 440px) {
+      padding: 15% 0 0 0;
+    }
   }
 }
 
