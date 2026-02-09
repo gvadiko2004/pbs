@@ -21,67 +21,392 @@
               <img src="./images/logo.png" alt="PBS" />
             </a>
 
-            <ul class="header__list list-reset">
-              <li class="header__list-item">
-                <a href="#!" class="header__list-link">
-                  <span>Головна</span>
-                </a>
-              </li>
+            <div class="menu-navs">
+              <div class="menu-nav__top">
+                <button class="btn-reset btn-close-menu">
+                  <svg
+                    width="21"
+                    height="21"
+                    viewBox="0 0 21 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.499981 20.2572L20.2571 0.5"
+                      stroke="black"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M0.499979 0.500166L20.2571 20.2573"
+                      stroke="black"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
 
-              <li class="header__list-item">
-                <a href="#!" class="header__list-link drop">
-                  Послуги
-                  <span
-                    ><svg
-                      width="6"
-                      height="3"
-                      viewBox="0 0 6 3"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M0.25 0.250015L2.75 2.25002L5.25 0.250015"
-                        stroke="white"
-                        stroke-width="0.5"
-                        stroke-linecap="round"
-                      /></svg
-                  ></span>
-                </a>
-              </li>
+              <ul class="header__list list-reset">
+                <li class="header__list-item">
+                  <a href="#!" class="header__list-link">
+                    <span>Головна</span>
+                  </a>
+                </li>
 
-              <li class="header__list-item">
-                <a href="#!" class="header__list-link drop">
-                  AI Послуги
-                  <span
-                    ><svg
-                      width="6"
-                      height="3"
-                      viewBox="0 0 6 3"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M0.25 0.250015L2.75 2.25002L5.25 0.250015"
-                        stroke="white"
-                        stroke-width="0.5"
-                        stroke-linecap="round"
-                      /></svg
-                  ></span>
-                </a>
-              </li>
+                <!-- ====== DROPDOWN 1 ====== -->
+                <li class="header__list-item has-drop menu-link-1">
+                  <a
+                    href="#!"
+                    class="header__list-link drop js-menu-trigger"
+                    aria-expanded="false"
+                  >
+                    Послуги
+                    <span>
+                      <svg
+                        width="6"
+                        height="3"
+                        viewBox="0 0 6 3"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.25 0.250015L2.75 2.25002L5.25 0.250015"
+                          stroke="white"
+                          stroke-width="0.5"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                    </span>
+                  </a>
 
-              <li class="header__list-item">
-                <a href="#!" class="header__list-link">
-                  <span>Про компанію</span>
-                </a>
-              </li>
+                  <div class="menu menu-1" aria-hidden="true">
+                    <div class="menu__inner">
+                      <div class="menu-nav">
+                        <h3 class="menu-nav__title">Seo послуги</h3>
 
-              <li class="header__list-item">
-                <a href="#!" class="header__list-link">
-                  <span>Кейси</span>
-                </a>
-              </li>
-            </ul>
+                        <ul class="menu-nav__list list-reset">
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link"
+                              >Seo послуги</a
+                            >
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Внутрішня SEO оптимізація сайту one-page
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link"
+                              >Linkbuilding</a
+                            >
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Просування сайту в google
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Оптимізація під AI
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link"
+                              >SEO Аудит</a
+                            >
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Технічний SEO Аналіз
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link"
+                              >SEO стратегія</a
+                            >
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              SEO оптимізація контенту
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Налаштування SEO плагінів
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="menu-nav">
+                        <h3 class="menu-nav__title">SEO для CMS</h3>
+
+                        <ul class="menu-nav__list list-reset">
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              SEO просування сайту WordPress
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              SEO просування сайту OpenCart
+                            </a>
+                          </li>
+                        </ul>
+
+                        <h3 class="menu-nav__title">SEO для бізнесу</h3>
+
+                        <ul class="menu-nav__list list-reset">
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              SEO просування сайту WordPress
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              SEO просування сайту OpenCart
+                            </a>
+                          </li>
+                        </ul>
+
+                        <h3 class="menu-nav__title">Локальне SEO</h3>
+
+                        <ul class="menu-nav__list list-reset">
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Розкрутка сайту Київ
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Розкрутка сайту Львів
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Розкрутка сайту Дніпро
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Розкрутка сайту Одеса
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="online-form">
+                        <span class="online-form__muted"> Онлайн форма </span>
+
+                        <h4 class="online-form__title">
+                          Отримайте план робіт за 24 години
+                        </h4>
+
+                        <span class="online-form__pag">
+                          Аудит → пріоритети → KPI. Без води.
+                        </span>
+
+                        <a href="#!" class="hero-content__btn static-btn">
+                          <span class="text">Дивитись послуги</span>
+                          <span class="circle">
+                            <svg
+                              width="19"
+                              height="16"
+                              viewBox="0 0 19 16"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                                stroke="black"
+                                stroke-linecap="round"
+                              ></path>
+                              <path
+                                d="M12.4255 9.66347L2.15578 3.73425"
+                                stroke="black"
+                                stroke-linecap="round"
+                              ></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <!-- ====== DROPDOWN 2 ====== -->
+                <li class="header__list-item has-drop menu-link-2">
+                  <a
+                    href="#!"
+                    class="header__list-link drop js-menu-trigger"
+                    aria-expanded="false"
+                  >
+                    AI Послуги
+                    <span>
+                      <svg
+                        width="6"
+                        height="3"
+                        viewBox="0 0 6 3"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.25 0.250015L2.75 2.25002L5.25 0.250015"
+                          stroke="white"
+                          stroke-width="0.5"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+
+                  <div class="menu menu-2" aria-hidden="true">
+                    <div class="menu__inner">
+                      <div class="menu-nav">
+                        <h3 class="menu-nav__title">AI послуги</h3>
+
+                        <ul class="menu-nav__list list-reset">
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              AI рішення для SEO просування
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Автоматизація бізнесу, Впровадження ШІ
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Штучний інтелект для відділу продаж
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Штучний інтелект для відділу маркетингу
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Автоматизація email розсилок
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              Автоматизація SMM
+                            </a>
+                          </li>
+
+                          <li class="menu-nav__list-item">
+                            <a href="#!" class="menu-nav__list-link">
+                              AI Парсери google map
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="online-form">
+                        <span class="online-form__muted"> Підписка </span>
+
+                        <h4 class="online-form__title">
+                          Готові AI-рішення для команд
+                        </h4>
+
+                        <span class="online-form__pag">
+                          Воронки, email, SMM, інтеграції.
+                        </span>
+
+                        <a href="#!" class="hero-content__btn static-btn">
+                          <span class="text">Подивитися ціни</span>
+                          <span class="circle">
+                            <svg
+                              width="19"
+                              height="16"
+                              viewBox="0 0 19 16"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                                stroke="black"
+                                stroke-linecap="round"
+                              ></path>
+                              <path
+                                d="M12.4255 9.66347L2.15578 3.73425"
+                                stroke="black"
+                                stroke-linecap="round"
+                              ></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="header__list-item">
+                  <a href="#!" class="header__list-link">
+                    <span>Про компанію</span>
+                  </a>
+                </li>
+
+                <li class="header__list-item">
+                  <a href="#!" class="header__list-link">
+                    <span>Кейси</span>
+                  </a>
+                </li>
+
+                <li class="header__list-item">
+                  <a href="#!" class="header__list-link">
+                    <span>Блог</span>
+                  </a>
+                </li>
+              </ul>
+
+              <a href="#!" class="hero-content__btn static-btn black">
+                <span class="text">Дивитись послуги</span>
+                <span class="circle">
+                  <svg
+                    width="19"
+                    height="16"
+                    viewBox="0 0 19 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.2695 13.3979L14.6874 12.2141L15.1941 12.0783C15.7275 11.9354 16.0441 11.3871 15.9012 10.8536L14.5816 5.92899"
+                      stroke="black"
+                      stroke-linecap="round"
+                    ></path>
+                    <path
+                      d="M12.4255 9.66347L2.15578 3.73425"
+                      stroke="black"
+                      stroke-linecap="round"
+                    ></path>
+                  </svg>
+                </span>
+              </a>
+            </div>
 
             <div class="end">
               <div class="header-action">
@@ -89,11 +414,15 @@
                   <a
                     href="tel:+38 (093) XXX - XX - XX"
                     class="header-action__info-link"
-                    >+38 (093) XXX - XX - XX</a
                   >
-                  <a href="mailto:seo@info.com" class="header-action__info-link"
-                    >seo@info.com</a
+                    +38 (093) XXX - XX - XX
+                  </a>
+                  <a
+                    href="mailto:seo@info.com"
+                    class="header-action__info-link"
                   >
+                    seo@info.com
+                  </a>
                 </div>
 
                 <span class="end__line">
@@ -172,6 +501,12 @@
                 </div>
               </div>
             </div>
+
+            <button class="btn-reset btn-menu-open">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
           </div>
         </div>
       </header>
@@ -418,7 +753,7 @@
             </div>
           </div>
         </div>
- 
+
         <section class="service">
           <div class="container">
             <div class="service__inner">
@@ -1642,7 +1977,7 @@
               </ul>
             </div>
           </div>
-        </section> 
+        </section>
       </main>
 
       <footer class="footer">
@@ -1838,16 +2173,46 @@
               </div>
             </div>
           </div>
+
+          <p class="footer__copyright">
+            © 2019 Lift Media | All Rights Reserved
+          </p>
+        </div>
+
+        <div class="f-circle-1">
+          <svg
+            width="191"
+            height="162"
+            viewBox="0 0 191 162"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              opacity="0.35"
+              cx="41.5"
+              cy="149.5"
+              r="119.5"
+              stroke="white"
+              stroke-width="60"
+            />
+          </svg>
+        </div>
+
+        <div class="f-circle-2">
+          <svg width="325" height="261" viewBox="0 0 325 261" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="322.5" cy="-61.5" r="262.5" stroke="white" stroke-opacity="0.1" stroke-width="120" />
+</svg>
         </div>
       </footer>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
 
     <script src="./js/main.js"></script>
     <script src="./js/animations.js"></script>
     <script src="./js/dropdown.js"></script>
     <script src="./js/faq.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    <script src="./js/swiper.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
