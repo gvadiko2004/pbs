@@ -135,7 +135,19 @@ document
   });
 
 document.querySelectorAll(".header__list-item").forEach((item) => {
-  item.addEventListener("click", function () {
-    document.querySelector(".menu-navs").classList.remove("active");
+  item.addEventListener("click", function (e) {
+    // если это пункты с дропдауном — ничего не делаем
+    if (
+      item.classList.contains("menu-link-1") ||
+      item.classList.contains("menu-link-2")
+    ) {
+      return;
+    }
+
+    // иначе закрываем меню
+    const menu = document.querySelector(".menu-navs");
+    if (menu) {
+      menu.classList.remove("active");
+    }
   });
 });
