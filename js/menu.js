@@ -139,3 +139,9 @@ document.querySelectorAll(".header__list--menu").forEach((item) => {
     document.querySelector(".menu-navs").classList.remove("active");
   });
 });
+
+// menu cons
+
+document.querySelector(".menu-see-serv").addEventListener("click", function () {
+  document.querySelector(".menu-navs").remove("active");
+});

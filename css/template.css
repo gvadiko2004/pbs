@@ -1,0 +1,15 @@
+.template-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 115%;
+  color: #101828;
+}
+
+.template-date {
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
+  background: #caf318;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
