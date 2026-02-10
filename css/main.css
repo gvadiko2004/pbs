@@ -2723,6 +2723,10 @@ a {
   background-color: var(----black);
 }
 
+.blog-image {
+  min-height: 200px;
+}
+
 .blogs-list {
   display: -ms-grid;
   display: grid;
