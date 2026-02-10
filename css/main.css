@@ -2699,27 +2699,27 @@ a {
             transform: translateX(-50%) rotate(360deg);
   }
 }
-.blog {
+.blog-template {
   padding: 120px 0 0 0;
 }
 @media (max-width: 1080px) {
-  .blog {
+  .blog-template {
     padding: 100px 0 0 0;
   }
 }
-.blog .title {
+.blog-template .title {
   margin: 0;
   margin-bottom: 40px;
 }
 @media (max-width: 768px) {
-  .blog .title {
+  .blog-template .title {
     margin-bottom: 30px;
   }
 }
-.blog .bread {
+.blog-template .bread {
   margin-bottom: 10px;
 }
-.blog .bread .circle {
+.blog-template .bread .circle {
   background-color: var(----black);
 }
 
