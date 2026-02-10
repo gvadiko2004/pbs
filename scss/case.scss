@@ -33,6 +33,9 @@
   gap: 20px;
   row-gap: 40px;
 
+  position: relative;
+  z-index: 1;
+
   @media (max-width: 1080px) {
     grid-template-columns: repeat(2, 1fr);
     gap: 42px;

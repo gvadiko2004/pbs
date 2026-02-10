@@ -244,3 +244,25 @@ a {
     }
   }
 }
+
+// 
+
+/* ====== Arrow rotate for dropdown triggers ====== */
+
+/* чтобы анимация была плавной */
+.header__list-item.has-drop .js-menu-trigger span svg {
+  transition: transform 0.2s ease;
+  transform-origin: center;
+}
+
+/* DESKTOP: при наведении на li (включая подменю) */
+@media (min-width: 1081px) {
+  .header__list-item.has-drop:hover .js-menu-trigger span svg {
+    transform: rotate(180deg);
+  }
+}
+
+/* MOBILE/TABLET: когда раскрыто (aria-expanded="true") */
+.header__list-item.has-drop .js-menu-trigger[aria-expanded="true"] span svg {
+  transform: rotate(180deg);
+}
