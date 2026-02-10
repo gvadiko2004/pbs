@@ -143,5 +143,5 @@ document.querySelectorAll(".header__list--menu").forEach((item) => {
 // menu cons
 
 document.querySelector(".menu-see-serv").addEventListener("click", function () {
-  document.querySelector(".menu-navs").remove("active");
+  document.querySelector(".menu-navs").classList.remove("active");
 });
